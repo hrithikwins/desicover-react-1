@@ -13,7 +13,7 @@ export default function BasicCard(props) {
   return (
     <Card class="temp" sx={{ minWidth: 275, borderLeft: 'solid #0096FF 2px', marginTop: '10px' }}>
       <CardContent>
-          <Typography gutterBottom variant="body2" color="#0096FF" component="div">
+          <Typography gutterBottom variant="body2" color={props.color} component="div">
           {props.title}
           </Typography>
           <Typography variant="body2" color="text.secondary">

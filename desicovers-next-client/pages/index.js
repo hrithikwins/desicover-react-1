@@ -9,21 +9,25 @@ const dummy_items = [
     id: 'e1',
     title: "EARNINGS(MONTHLY)",
     amount: 94.12,
+    color: "#00008B",
   },
   {
     id: 'e2',
     title: "EARNINGS(ANNUAL)",
     amount: 799.49,
+    color: "#006400",
   },
   {
     id: 'e3',
     title: "NO. OF PRODUCTS",
     amount: 294.67,
+    color: "#CCCC00",
   },
   {
     id: 'e4',
     title: "CANCELLED ORDERS",
     amount: 450,
+    color: "#7D0552",
   },
 ];
 

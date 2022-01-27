@@ -8,10 +8,23 @@ import CardActions from '@mui/material/CardActions';
 import Collapse from '@mui/material/Collapse';
 import Typography from '@mui/material/Typography';
 import { red } from '@mui/material/colors';
-import { CircularProgress } from '@mui/material';
+// import { CircularProgress, LinearProgress } from '@mui/material';
 import { BarChart } from '@mui/icons-material/BarChart';
 import { PieChartOutlined } from '@mui/icons-material/PieChartOutlineOutlined';
+import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgress';
 
+
+const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
+  height: 10,
+  borderRadius: 5,
+  [`&.${linearProgressClasses.colorPrimary}`]: {
+    backgroundColor: theme.palette.grey[theme.palette.mode === 'light' ? 200 : 800],
+  },
+  [`& .${linearProgressClasses.bar}`]: {
+    borderRadius: 5,
+    backgroundColor: theme.palette.mode === 'light' ? '#8B008B' : '#308fe8',
+  },
+}));
 
 (({ theme, expand }) => ({
   transform: !expand ? 'rotate(0deg)' : 'rotate(180deg)',
@@ -28,15 +41,14 @@ export default function LargeCard(props) {
           <Typography gutterBottom variant="body2" color="#00008B" component="div">
           {props.title}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
-          {props.amount}
-          </Typography>
         </CardContent>
-      <CardMedia
-        component={ props.component }
+      {/* <CardMedia
+        component={props.component}
+        variant="determinate"
+        value={80}
         height="194"
         alt="Paella dish"
-      />
+      /> */}
     </Card>
   );
 }

@@ -37,11 +37,11 @@ const ProductCard = ({ product }) => {
     const isProductAdded = items.find(({ id }) => id === product.id);
 
     return (
-        <div className="">
+        <div className="px-2">
             {/* the empty container for the image to be shifted towards top */}
-            <div className="empty-container"></div>
+            <div className="empty-container p-5"></div>
             {/* the actual card */}
-            <div className="container-fluid shadow pb-md-4 product-main-card bg-white px-md-4">
+            <div className="container-fluid shadow product-main-card bg-white px-md-4">
                 <div className="row">
                     <div className="col-6 image-container">
                         <Link href={`/product-description/${product._id}`}>
@@ -56,12 +56,12 @@ const ProductCard = ({ product }) => {
                         <div className="col-6 d-flex flex-column flex-md-row justify-content-end pt-2 px-2 align-items-end rating">
                             <div className="col-auto align-self-center icon px-md-1"></div>
                             <span className="col-auto align-self-center">
-                                <strong>{product.ratings["rating"]}/5</strong>
+                                {/* <strong>{product.ratings["rating"]}/5</strong> */}
                             </span>
                         </div>
                     </div>
                 </div>
-                <div className="row pt-4">
+                <div className="row pt-5">
                     <h5 className="col-auto title font-130">
                         <Link
                             className="text-decoration-none product-name"
@@ -141,13 +141,13 @@ const ProductCard = ({ product }) => {
                                 </span>
                             </span>
                         )}
-                        <span className="px-1 px-md-0 light-text">
+                        {/* <span className="px-1 px-md-0 light-text">
                             /
                             {product.measurementValue === ""
                                 ? "500"
                                 : product.measurementValue}
                             {product.measurementUnit}
-                        </span>
+                        </span> */}
                         <div className="py-2 py-md-0"></div>
                     </div>
                 </div>

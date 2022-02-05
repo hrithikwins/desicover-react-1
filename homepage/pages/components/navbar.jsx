@@ -37,7 +37,7 @@ const ResponsiveAppBar = () => {
 
     return (
         <Container position="static">
-            <Container maxWidth="xl" maxHeight="10px">
+            <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <Typography
                         variant="h6"

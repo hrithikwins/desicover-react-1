@@ -20,7 +20,9 @@ export default function Home() {
                 <ResponsiveAppBar />
                 {/* <SwiperCarousel /> */}
                 {/* <Products */}
-                <ProductCarousel />
+                <div className="px-md-4">
+                    <ProductCarousel />
+                </div>
             </main>
 
             <footer className={styles.footer}></footer>

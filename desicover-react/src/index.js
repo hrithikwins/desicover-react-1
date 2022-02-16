@@ -17,7 +17,7 @@ ReactDOM.render(
     <React.StrictMode>
         <CartProvider>
             <ProductProvider>
-                <App />
+                {/* <App /> */}
                 <Router>
                     {/* <AbsoluteAppbar /> */}
                     {/* <hr /> */}

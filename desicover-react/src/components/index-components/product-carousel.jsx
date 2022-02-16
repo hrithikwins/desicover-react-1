@@ -93,7 +93,7 @@ const NewAdditions = ({ heading, productData }) => {
                                     key={index}
                                 >
                                     <ProductCard
-                                        key={product._id}
+                                        key={product.id}
                                         product={product}
                                     />
                                 </SwiperSlide>
@@ -111,7 +111,7 @@ const NewAdditions = ({ heading, productData }) => {
                         >
                             <div className="slideshow-content">
                                 <ProductCard
-                                    key={product._id}
+                                    key={product.id}
                                     product={product}
                                 />
                             </div>

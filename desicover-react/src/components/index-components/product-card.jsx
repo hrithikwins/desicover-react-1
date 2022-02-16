@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 // [
 //     {
-//         _id: "61fae2f031199ab0e1ba3733",
+//         id: "61fae2f031199ab0e1ba3733",
 //         id: "1",
 //         name: "First Product",
 //         brandId: "1",
@@ -34,7 +34,7 @@ import { motion } from "framer-motion";
 // ];
 const ProductCard = ({ product }) => {
     const { items, addItem, removeItem } = useCart();
-    const isProductAdded = items.find(({ id }) => id === product._id);
+    const isProductAdded = items.find(({ id }) => id === product.id);
     console.log(product);
 
     return (
@@ -46,7 +46,7 @@ const ProductCard = ({ product }) => {
                 <div className="row">
                     <div className="col-6 image-container">
                         <a
-                            href={`/product-description/${product._id}`}
+                            href={`/product-description/${product.id}`}
                             passHref
                         >
                             <img
@@ -72,7 +72,7 @@ const ProductCard = ({ product }) => {
                     <h5 className="col-auto title font-130">
                         <a
                             className="text-decoration-none product-name"
-                            href={`/product-description/${product._id}`}
+                            href={`/product-description/${product.id}`}
                         >
                             {product.productData.name}
                         </a>
@@ -89,7 +89,7 @@ const ProductCard = ({ product }) => {
                         // className={isProductAdded ? "feeble-border" : ""}
                         onClick={() => {
                             isProductAdded
-                                ? removeItem(product._id)
+                                ? removeItem(product.id)
                                 : addItem(product, 1);
                         }}
                     >

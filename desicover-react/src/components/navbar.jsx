@@ -11,6 +11,7 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
+import { Link } from "react-router-dom";
 
 const pages = ["Mobile cover", "T-Shirts", "Mugs", "Pop Socket", "xyz"];
 const settings = ["Account", "My Orders", "Dashboard", "Logout"];
@@ -139,18 +140,20 @@ const ResponsiveAppBar = () => {
                     </Box>
 
                     <Box sx={{ flexGrow: 0 }}>
-                        <Tooltip title="Open settings">
-                            <IconButton
-                                onClick={handleOpenUserMenu}
-                                sx={{ p: 0 }}
-                            >
-                                <Avatar
-                                    alt="Remy Sharp"
-                                    src="/static/images/avatar-2.jpg"
-                                />
-                            </IconButton>
-                        </Tooltip>
-                        <Menu
+                        <Link to="profile">
+                            <Tooltip title="Open Profile">
+                                <IconButton
+                                    // onClick={handleOpenUserMenu}
+                                    sx={{ p: 0 }}
+                                >
+                                    <Avatar
+                                        alt="Remy Sharp"
+                                        src="/static/images/avatar-2.jpg"
+                                    />
+                                </IconButton>
+                            </Tooltip>
+                        </Link>
+                        {/* <Menu
                             sx={{ mt: "45px" }}
                             id="menu-appbar"
                             anchorEl={anchorElUser}
@@ -176,7 +179,7 @@ const ResponsiveAppBar = () => {
                                     </Typography>
                                 </MenuItem>
                             ))}
-                        </Menu>
+                        </Menu> */}
                     </Box>
                 </Toolbar>
             </Container>

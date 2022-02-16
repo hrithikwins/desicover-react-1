@@ -18,7 +18,7 @@ export default function Home() {
 
             <main>
                 <ResponsiveAppBar />
-                {/* <SwiperCarousel /> */}
+                <SwiperCarousel />
                 {/* <Products */}
                 <div className="px-md-4">
                     <ProductCarousel />

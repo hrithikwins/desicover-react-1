@@ -47,7 +47,26 @@ export const SwiperCarousel = () => {
                         />
                     </div>
                 </SwiperSlide>
-                ...
+                <SwiperSlide>
+                    <div className="vh-100">
+                        <Image
+                            class="img-fluid"
+                            layout="fill"
+                            src="/5.png"
+                            alt="image1"
+                        />
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="vh-100">
+                        <Image
+                            class="img-fluid"
+                            layout="fill"
+                            src="/6.jpeg"
+                            alt="image1"
+                        />
+                    </div>
+                </SwiperSlide>
             </Swiper>
         </div>
     );

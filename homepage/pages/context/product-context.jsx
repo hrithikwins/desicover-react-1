@@ -7,7 +7,8 @@ const ProductProvider = (props) => {
     const [productData, setProductData] = useState([]);
     async function getAllProducts() {
         const result = await axios.get(
-            "https://desicover.herokuapp.com/get-all-products"
+            // "https://desicover.herokuapp.com/get-all-products"
+            "https://daanapaani.herokuapp.com/get-all-products"
         );
         setProductData(result.data);
         console.log(result.data);

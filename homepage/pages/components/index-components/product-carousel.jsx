@@ -49,7 +49,7 @@ const NewAdditions = ({ heading, productData }) => {
             <div className="product-carousel-container">
                 <div className="d-flex justify-content-between align-items-center">
                     <h1 className="p-md-5 px-2 pt-3 product-heading">
-                        <Vibration style={{ fontSize: "150%" }} />
+                        {/* <Vibration style={{ fontSize: "150%" }} /> */}
                         &nbsp;{heading}
                     </h1>
 

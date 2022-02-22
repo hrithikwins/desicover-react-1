@@ -1,11 +1,13 @@
 // import Head from "next/head";
 // import styles from "../styles/Home.module.css";
-import ResponsiveAppBar from "./components/navbar";
+import Navbar from "./components/navbar";
 import SwiperCarousel from "./components/header-carousel";
 import ProductCarousel from "./components/index-components/product-carousel";
+import Categories from "./components/index-components/categories";
+import NewArrivals from "./components/index-components/new-arrivals";
 export default function App() {
     return (
-        <div className={"container"}>
+        <div>
             {/* <Head>
                 <title>Desicovers Home</title>
                 <meta
@@ -14,9 +16,11 @@ export default function App() {
                 />
             </Head> */}
             <main>
-                <ResponsiveAppBar />
+                <Navbar />
                 <SwiperCarousel />
-                <ProductCarousel />
+                <NewArrivals />
+                <Categories />
+                {/* <div className="w-100"><ProductCarousel /></div> */}
             </main>
 
             {/* <footer className={styles.footer}></footer> */}

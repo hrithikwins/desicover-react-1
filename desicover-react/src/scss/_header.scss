@@ -2,7 +2,7 @@
 ==================================================================================================== */
 
 /* header section - start
-================================================== */
+=========================================--========= */
 .sticky_header {
 	top: 0px;
 	left: 0px;
@@ -759,6 +759,7 @@
 /* carparts header - start
 ================================================== */
 .carparts_header {
+    background: red !important;
 	top: 40px;
 	left: 0px;
 	right: 0px;
@@ -771,11 +772,12 @@
 	.brand_logo,
 	.header_top,
 	.header_bottom {
-		padding: 15px 30px;
+		padding: 5px 10px;
 	}
 
 	.brand_logo {
-		height: 180px;
+		height: 10px;
+        width: 50px;
 		display: flex;
 		align-items: center;
 		justify-content: center;

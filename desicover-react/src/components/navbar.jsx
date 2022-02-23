@@ -88,7 +88,6 @@ const Navbar = () => {
                                 <a className="brand_link" href="index.html">
                                     <img
                                         src="/logo-small.png"
-                                        srcSet="assets/images/logo/logo_27_2x.png 2x"
                                         alt="DesiCovers"
                                     />
                                 </a>

@@ -5,14 +5,19 @@ import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
-import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
+import MenuIcon from "@mui/icons-material/Menu";
 import "./navbar.sass";
 import { Link } from "react-router-dom";
+import {
+    MenuOutlined,
+    SearchOutlined,
+    ShoppingCartOutlined,
+} from "@mui/icons-material";
 
 const pages = [
     "Men",
@@ -45,7 +50,7 @@ const Navbar = () => {
     };
 
     return (
-        <header className="header_section default_header sticky_header clearfix">
+        <header className="header_section default_header clearfix bg-danger">
             <div className="header_top text-white" data-bg-color="#000000">
                 <div className="container">
                     <div className="row align-items-center">
@@ -88,6 +93,7 @@ const Navbar = () => {
                             <div className="brand_logo">
                                 <Link to="/" className="brand_link">
                                     <img
+                                        style={{ width: "120px" }}
                                         src="/logo-small.png"
                                         alt="DesiCovers"
                                     />
@@ -102,15 +108,15 @@ const Navbar = () => {
                                             aria-expanded="false"
                                             aria-controls="search_body_collapse"
                                         >
-                                            <i className="fal fa-search" />
+                                            <SearchOutlined />
                                         </button>
                                     </li>
                                     <li>
+                                            <ShoppingCartOutlined />
                                         <button
                                             type="button"
                                             className="cart_btn"
                                         >
-                                            <i className="fal fa-shopping-cart" />
                                             <span className="btn_badge">2</span>
                                         </button>
                                     </li>
@@ -119,7 +125,7 @@ const Navbar = () => {
                                             type="button"
                                             className="mobile_menu_btn"
                                         >
-                                            <i className="far fa-bars" />
+                                            <MenuOutlined />
                                         </button>
                                     </li>
                                 </ul>

@@ -1,12 +1,12 @@
 /* ==================================================================================================== */
-/* 
-*	Project Name 	:  Neoncart
+/*
+*	Project Name 	:  Desicovers
 *	File 			:  Responsive CSS Base
 *	Version 		:  1.0.0
 *	Author 			:  jthemes (https://themeforest.net/user/jthemes)
 *	css code for responsive layout To make Responsive
 
-================================================== 
+==================================================
 
 *	1 - media screen and (max-width: 1440px)
 *	2 - media screen and (max-width: 1280px)
@@ -27,7 +27,7 @@
 ==================================================================================================== */
 
 @media screen and (max-width: 1630px) {
-	
+
 	/* home motorcycle - start */
 	.motorcycle_header .action_items li:not(:last-child) {
 		margin-right: 25px;
@@ -55,7 +55,7 @@
 		max-width: 700px;
 	}
 	/* home motorcycle - end */
-	
+
 	/* furniture shop - start */
 	.furniture_breadcrumb .deco_image {
 		right: 130px;
@@ -73,7 +73,7 @@
 }
 
 @media screen and (max-width: 1460px) {
-	
+
 	/* global - start */
 	.arrow_ycenter .carousel_nav {
 		button {
@@ -92,13 +92,13 @@
 		right: -80px;
 	}
 	/* global - end */
-	
+
 	/* shop details - end */
 	.ce_offer_fullimage .item_title {
 		font-size: 42px;
 	}
 	/* shop details - end */
-	
+
 	/* home carparts - start */
 	.carparts_block_tabs {
 		width: 100%;
@@ -121,7 +121,7 @@
 		}
 	}
 	/* home carparts - end */
-	
+
 	/* home creative onelook - start */
 	.onelook_header {
 		top: 0px;
@@ -141,7 +141,7 @@
 		font-size: 76px;
 	}
 	/* home creative onelook - end */
-	
+
 	/* home electronic - start */
 	.electronic_slider h3 {
 		font-size: 36px;
@@ -203,9 +203,9 @@
 		min-width: 270px;
 		margin-left: 5px;
 	}
-	
+
 	/* home electronic - end */
-	
+
 	/* home fashion - start */
 	.fashion_slider .slider_image {
 		right: 130px;
@@ -247,7 +247,7 @@
 		font-size: 66px;
 	}
 	/* home fashion - end */
-	
+
 	/* home fashion minimal - start */
 	.prl_100 {
 		padding-left: 60px;
@@ -284,7 +284,7 @@
 		font-size: 26px;
 	}
 	/* home fashion minimal - end */
-	
+
 	/* home furniture - start */
 	.prl_90 {
 		padding-left: 60px;
@@ -345,7 +345,7 @@
 		}
 	}
 	/* home furniture - end */
-	
+
 	/* home gadget - start */
 	.gadget_banner h1 {
 		font-size: 66px;
@@ -368,7 +368,7 @@
 		padding-top: 300px;
 	}
 	/* home gadget - end */
-	
+
 	/* home lookbook creative - start */
 	.home_lookbook_creative .arrow_ycenter .carousel_nav button:nth-child(1) {
 		left: 0px;
@@ -397,7 +397,7 @@
 		font-size: 34px;
 	}
 	/* home lookbook creative - end */
-	
+
 	/* home lookbook slide - start */
 	.lookbook_slide .title_text {
 		font-size: 50px;
@@ -418,7 +418,7 @@
 		padding-bottom: 25px;
 	}
 	/* home lookbook slide - end */
-	
+
 	/* home modern - start */
 	.modern_slider .item {
 		padding: 60px;
@@ -473,7 +473,7 @@
 		font-size: 42px;
 	}
 	/* home modern - end */
-	
+
 	/* home minimal - start */
 	.minimal_slider .carousel_nav button:nth-child(1) {
 		left: 30px;
@@ -482,7 +482,7 @@
 		right: 30px;
 	}
 	/* home minimal - end */
-	
+
 	/* home motorcycle - start */
 	.motorcycle_header .prl_90 {
 		padding-left: 15px;
@@ -514,7 +514,7 @@
 		font-size: 13px;
 	}
 	/* home motorcycle - end */
-	
+
 	/* home parallax shop - start */
 	.ps_offer_item .item_content {
 		padding: 50px 30px;
@@ -568,13 +568,13 @@
 		padding: 30px;
 	}
 	/* home parallax shop - end */
-	
+
 	/* home simple shop - start */
 	.main_menu > ul > li:not(:last-child) {
 		margin-right: 25px;
 	}
 	/* home simple shop - end */
-	
+
 	/* home sports - start */
 	.sports_slider .carousel_nav button {
 		&:nth-child(1) {
@@ -635,7 +635,7 @@
 		margin-left: -200px;
 	}
 	/* home sports - end */
-	
+
 	/* home supermarket - start */
 	.supermarket_product_listlayout .item_image {
 		width: 210px;
@@ -687,7 +687,7 @@
 		margin-left: 50px;
 	}
 	/* home supermarket - end */
-	
+
 	/* home watch - start */
 	.watch_slider .item {
 		min-height: 700px;
@@ -741,7 +741,7 @@
 		font-size: 13px;
 	}
 	/* home watch - end */
-	
+
 	/* gadget shop details - start */
 	.gadget_details_section .item_title {
 		font-size: 48px;
@@ -751,7 +751,7 @@
 		font-size: 32px;
 	}
 	/* gadget shop details - end */
-	
+
 	/* lookbook shop details - start */
 	.lc_details_section .shop_details_content {
 		padding: 30px;
@@ -764,18 +764,18 @@
 		font-size: 54px;
 	}
 	/* lookbook shop details - end */
-	
+
 	/* motorcycle shop - start */
 	.motorcycle_product_list .product_action_btns li:not(:last-child) {
 		margin-right: 10px;
 		margin-bottom: 10px;
 	}
 	/* motorcycle shop - end */
-	
+
 }
 
 @media screen and (max-width: 1360px) {
-	
+
 	/* global - start */
 	.arrow_ycenter .carousel_nav {
 		button {
@@ -794,7 +794,7 @@
 		right: -25px;
 	}
 	/* global - end */
-	
+
 	/* home electronic - start */
 	.electronic_content_container {
 		padding: 30px;
@@ -815,7 +815,7 @@
 		}
 	}
 	/* home electronic - end */
-	
+
 	/* home fashion - start */
 	.fashion_slider .slider_image {
 		right: 0px;
@@ -850,7 +850,7 @@
 		width: 25%;
 	}
 	/* home fashion - end */
-	
+
 	/* home fashion minimal - start */
 	.fm_offer_item .item_content {
 		padding: 25px;
@@ -868,7 +868,7 @@
 		padding: 10px 20px;
 	}
 	/* home fashion minimal - end */
-	
+
 	/* home furniture - start */
 	.furniture_slider h3 {
 		font-size: 60px;
@@ -938,7 +938,7 @@
 		max-width: 600px;
 	}
 	/* home furniture - end */
-	
+
 	/* home gadget - start */
 	.gadget_header .order_btn {
 		display: none;
@@ -996,7 +996,7 @@
 		font-size: 20px;
 	}
 	/* home gadget - end */
-	
+
 	/* home modern - start */
 	.modern_slider .carousel_nav button:nth-child(1) {
 		left: 15px;
@@ -1034,7 +1034,7 @@
 		padding-left: 300px;
 	}
 	/* home modern - end */
-	
+
 	/* home minimal - start */
 	.minimal_slider .carousel_nav button:nth-child(1) {
 		left: 15px;
@@ -1043,7 +1043,7 @@
 		right: 15px;
 	}
 	/* home minimal - end */
-	
+
 	/* home motorcycle - start */
 	.motorcycle_header .form_item input {
 		width: 180px;
@@ -1053,7 +1053,7 @@
 		padding: 0px 15px;
 	}
 	/* home motorcycle - end */
-	
+
 	/* home parallax shop - start */
 	.parallax_shop_header .header_content_wrap {
 		min-height: 130px;
@@ -1070,7 +1070,7 @@
 		margin-bottom: 15px;
 	}
 	/* home parallax shop - end */
-	
+
 	/* home simple shop - start */
 	.simple_shop_banner .item_content {
 		padding: 30px;
@@ -1117,7 +1117,7 @@
 		right: 0px;
 	}
 	/* home simple shop - end */
-	
+
 	/* home sports - start */
 	.sports_slider .carousel_nav button {
 		&:nth-child(1) {
@@ -1181,7 +1181,7 @@
 		margin-bottom: 15px;
 	}
 	/* home sports - end */
-	
+
 	/* home watch - start */
 	.watch_slider .carousel_nav button {
 		&:nth-child(1) {
@@ -1192,7 +1192,7 @@
 		}
 	}
 	/* home watch - end */
-	
+
 	/* lookbook shop details - start */
 	.lc_details_section .item_title {
 		font-size: 38px;
@@ -1214,7 +1214,7 @@
 		}
 	}
 	/* lookbook shop details - end */
-	
+
 }
 
 /* ====================================================================================================
@@ -1227,7 +1227,7 @@
 ==================================================================================================== */
 
 @media screen and (max-width: 1280px) {
-	
+
 	/* global - start */
 	.prl_100,
 	.prl_90,
@@ -1235,7 +1235,7 @@
 		padding-left: 15px;
 		padding-right: 15px;
 	}
-	
+
 	.arrow_ycenter .carousel_nav {
 		button {
 			&:nth-child(1) {
@@ -1253,7 +1253,7 @@
 		right: -15px;
 	}
 	/* global - end */
-	
+
 	/* home electronic - start */
 	.electronic_header .medical_search_bar .option_select .nice-select {
 		font-size: 14px;
@@ -1346,7 +1346,7 @@
 		right: 15px;
 	}
 	/* home electronic - end */
-	
+
 	/* home furniture - start */
 	.furniture_slider {
 		&.arrow_ycenter {
@@ -1377,7 +1377,7 @@
 		font-size: 16px;
 	}
 	/* home furniture - end */
-	
+
 	/* home lookbook creative - start */
 	.lookbook_creative_slider .slider_content {
 		margin: auto;
@@ -1407,7 +1407,7 @@
 		min-height: 670px;
 	}
 	/* home lookbook creative - end */
-	
+
 	/* home lookbook slide - start */
 	.lookbook_slide .slick-dots {
 		right: 0px;
@@ -1423,7 +1423,7 @@
 		font-size: 14px;
 	}
 	/* home lookbook slide - end */
-	
+
 	/* home media - start */
 	.medical_header .header_middle {
 		min-height: auto;
@@ -1467,7 +1467,7 @@
 		font-size: 18px;
 	}
 	/* home media - end */
-	
+
 	/* home modern - start */
 	.modern_mobile_sidebar {
 		left: -320px;
@@ -1495,7 +1495,7 @@
 		padding: 0px 15px;
 	}
 	/* home modern - end */
-	
+
 	/* home minimal - start */
 	.minimal_slider .carousel_nav button:nth-child(1) {
 		left: 15px;
@@ -1504,7 +1504,7 @@
 		right: 15px;
 	}
 	/* home minimal - end */
-	
+
 	/* home motorcycle - start */
 	.motorcycle_deals_carousel .item_title {
 		font-size: 80px;
@@ -1513,7 +1513,7 @@
 		width: 160px;
 	}
 	/* home motorcycle - end */
-	
+
 	/* home parallax shop - start */
 	.parallax_shop_header .header_content_wrap {
 		min-height: auto;
@@ -1561,7 +1561,7 @@
 		margin-bottom: 20px;
 	}
 	/* home parallax shop - end */
-	
+
 	/* home simple shop - start */
 	.main_menu > ul > li {
 		&:not(:last-child) {
@@ -1572,7 +1572,7 @@
 		}
 	}
 	/* home simple shop - end */
-	
+
 	/* home single story - start */
 	.single_story_slider .details_content {
 		height: 570px;
@@ -1605,7 +1605,7 @@
 		padding-bottom: 15px;
 	}
 	/* home single story - end */
-	
+
 	/* home sports - start */
 	.sports_slider .carousel_nav button {
 		&:nth-child(1) {
@@ -1650,7 +1650,7 @@
 		margin-left: -105px;
 	}
 	/* home sports - end */
-	
+
 	/* home supermarket - start */
 	.alldepartments_dropdown .alldepartments_menulist > li .icon {
 		width: 30px;
@@ -1669,7 +1669,7 @@
 		right: 0px;
 	}
 	/* home supermarket - end */
-	
+
 	/* furniture shop - start */
 	.furniture_breadcrumb .deco_image {
 		right: 15px;
@@ -1680,7 +1680,7 @@
 		margin-top: 80px;
 	}
 	/* furniture shop - end */
-	
+
 }
 
 /* ====================================================================================================
@@ -1693,7 +1693,7 @@
 ==================================================================================================== */
 
 @media screen and (max-width: 1199px) {
-	
+
 	/* global - start */
 	.arrow_ycenter .slick-prev {
 		left: 0px;
@@ -1714,7 +1714,7 @@
 		}
 	}
 	/* global - end */
-	
+
 	/* header - start */
 	.default_header .main_menu > ul > li:not(:last-child) {
 		margin-right: 40px;
@@ -1726,7 +1726,7 @@
 		font-size: 12px;
 	}
 	/* header - end */
-	
+
 	/* blog details - start */
 	.small_blog .item_title > a {
 		font-size: 15px;
@@ -1735,7 +1735,7 @@
 		font-size: 13px;
 	}
 	/* blog details - end */
-	
+
 	/* compare - start */
 	.compare_content_wrap {
 		padding: 50px 15px;
@@ -1746,7 +1746,7 @@
 			}
 		}
 	}
-	
+
 	.compare_content_wrap2 {
 		overflow-x: scroll;
 		table {
@@ -1754,7 +1754,7 @@
 		}
 	}
 	/* compare - end */
-	
+
 	/* shop details - start */
 	.shop_details_content p {
 		font-size: 16px;
@@ -1763,7 +1763,7 @@
 		font-size: 32px;
 	}
 	/* shop details - end */
-	
+
 	/* shop cart - start */
 	.cart_product .item_image {
 		width: 100px;
@@ -1797,7 +1797,7 @@
 		width: 70px;
 	}
 	/* shop cart - end */
-	
+
 	/* home carparts - start */
 	.carparts_header {
 		top: 15px;
@@ -1829,7 +1829,7 @@
 	.carparts_deals_listlayout .price_text {
 		font-size: 28px;
 	}
-	
+
 	.carparts_inline_tabs {
 		li {
 			&:not(:last-child) {
@@ -1840,11 +1840,11 @@
 			font-size: 16px;
 		}
 	}
-	
+
 	.Interior_carparts .parts_category_list a {
 		font-size: 16px;
 	}
-	
+
 	.carparts_deals_grid {
 		.countdown_timer {
 			li {
@@ -1889,7 +1889,7 @@
 	.carparts_deals_grid .item_image > img {
 		max-width: 230px;
 	}
-	
+
 	.carparts_blog_listlayout:nth-child(odd) .item_content,
 	.carparts_blog_listlayout:nth-child(even) .item_content {
 		padding: 0px;
@@ -1904,7 +1904,7 @@
 		font-size: 16px;
 		margin-bottom: 25px;
 	}
-	
+
 	.carparts_newsletter .newsletter_title {
 		font-size: 35px;
 		padding-left: 90px;
@@ -1926,7 +1926,7 @@
 		padding: 0px 40px;
 	}
 	/* home carparts - end */
-	
+
 	/* home classic ecommerce - start */
 	.main_menu > ul > li:not(:last-child) {
 		margin-right: 30px;
@@ -1935,7 +1935,7 @@
 		font-size: 18px;
 	}
 	/* home classic ecommerce - end */
-	
+
 	/* home creative onelook - start */
 	.onelook_main_slider .slider_image {
 		max-width: 370px;
@@ -1944,7 +1944,7 @@
 		font-size: 60px;
 	}
 	/* home creative onelook - end */
-	
+
 	/* home electronic - start */
 	.electronic_section_title .deals_items_countdown {
 		padding: 15px 15px;
@@ -2007,7 +2007,7 @@
 		margin-right: 15px;
 	}
 	/* home electronic - end */
-	
+
 	/* home motorcycle - start */
 	.motorcycle_header .form_item input {
 		width: 130px;
@@ -2023,14 +2023,14 @@
 		margin-right: 20px;
 	}
 	/* home motorcycle - end */
-	
+
 	/* home parallax shop - start */
 	.ps_offer_item .item_content {
 		width: 100%;
 		padding: 60px 30px;
 	}
 	/* home parallax shop - end */
-	
+
 	/* home single story - start */
 	.single_story_slider .pd_slide .item {
 		display: block;
@@ -2100,7 +2100,7 @@
 		top: -15px;
 		right: -15px;
 	}
-	
+
 	.single_story_slider .slick-arrow {
 		top: 10px;
 		bottom: unset;
@@ -2116,7 +2116,7 @@
 		left: unset;
 	}
 	/* home single story - end */
-	
+
 	/* fashion shop - start */
 	.fashion_banner h1 {
 		font-size: 54px;
@@ -2139,7 +2139,7 @@
 		margin-right: 25px;
 	}
 	/* fashion shop - end */
-	
+
 	/* gadget shop details - start */
 	.g_page_title {
 		font-size: 48px;
@@ -2162,7 +2162,7 @@
 		margin-bottom: 30px;
 	}
 	/* gadget shop details - end */
-	
+
 	/* medical shop - start */
 	.medical_search_bar .form_item {
 		width: 50%;
@@ -2180,7 +2180,7 @@
 		padding: 15px 30px;
 	}
 	/* medical shop - end */
-	
+
 	/* modern minimal shop - start */
 	.minimal_breadcrumb {
 		min-height: 530px;
@@ -2190,7 +2190,7 @@
 		font-size: 72px;
 	}
 	/* modern minimal shop - end */
-	
+
 	/* motorcycle shop - start */
 	.motorcycle_deals_carousel2 .item_title {
 		font-size: 48px;
@@ -2212,11 +2212,11 @@
 		}
 	}
 	/* motorcycle shop - end */
-	
+
 }
 
 @media screen and (max-width: 1024px) {
-	
+
 	/* furniture shop - start */
 	.main_menu > ul > li:not(:last-child) {
 		margin-right: 20px;
@@ -2232,7 +2232,7 @@
 		min-height: 320px;
 	}
 	/* furniture shop - end */
-	
+
 	/* sports shop - start */
 	.breadcrumb_section.sports_breadcrumb {
 		padding: 80px 0px;
@@ -2270,18 +2270,18 @@
 ==================================================================================================== */
 
 @media screen and (max-width: 991px) {
-	
+
 	/* global - start */
 	.sec_ptb_140 {
 		padding: 100px 0px;
 	}
-	
+
 	.custom_btn {
 		height: 50px;
 		font-size: 12px;
 		padding: 10px 25px;
 	}
-	
+
 	.form_item input {
 		height: 50px;
 		padding: 0px 20px;
@@ -2290,16 +2290,16 @@
 		padding: 20px;
 		min-height: 110px;
 	}
-	
+
 	.order-last {
 		order: 0;
 	}
-	
+
 	hr {
 		margin: 20px 0px;
 	}
 	/* global - end */
-	
+
 	/* header - start */
 	.default_header .header_top {
 		display: none;
@@ -2307,7 +2307,7 @@
 	.default_header + main {
 		margin-top: 0px;
 	}
-	
+
 	.main_menu,
 	.header_section .action_btns_group {
 		display: none;
@@ -2335,7 +2335,7 @@
 		font-size: 16px;
 	}
 	/* header - end */
-	
+
 	/* footer - start */
 	.default_footer {
 		.footer_widget_area {
@@ -2346,7 +2346,7 @@
 		}
 	}
 	/* footer - end */
-	
+
 	/* breadcrumb - start */
 	.breadcrumb_section {
 		min-height: 480px;
@@ -2357,14 +2357,14 @@
 		margin-bottom: 20px;
 	}
 	/* breadcrumb - end */
-	
+
 	/* sidebar - start */
 	.sidebar_section {
 		max-width: 370px;
 		margin-top: 50px;
 	}
 	/* sidebar - end */
-	
+
 	/* blog - start */
 	.blog_grid {
 		.blog_title {
@@ -2380,14 +2380,14 @@
 		}
 	}
 	/* blog - end */
-	
+
 	/* blog details - start */
 	.details_section .details_image img {
 		width: 100%;
 		display: block;
 	}
 	/* blog details - end */
-	
+
 	/* contact - start */
 	#mapBox {
 		height: 400px;
@@ -2410,7 +2410,7 @@
 		min-height: 130px;
 	}
 	/* contact - end */
-	
+
 	/* shop details - start */
 	.shop_details_content .item_price {
 		font-size: 20px;
@@ -2423,7 +2423,7 @@
 		padding: 0px 10px;
 	}
 	/* shop details - end */
-	
+
 	/* shop details - start */
 	.details_description_tab .nav a {
 		font-size: 16px;
@@ -2432,7 +2432,7 @@
 		margin-right: 40px;
 	}
 	/* shop details - end */
-	
+
 	/* shop cart - start */
 	.cart_table {
 		overflow-x: scroll;
@@ -2456,7 +2456,7 @@
 		margin-top: 15px;
 	}
 	/* shop cart - end */
-	
+
 	/* shop checkout - start */
 	.checkout_step a {
 		font-size: 17px;
@@ -2469,7 +2469,7 @@
 	.checkout_step li {
 		width: 50%;
 	}
-	
+
 	.checkout_collapse_content {
 		margin-bottom: 30px;
 	}
@@ -2480,7 +2480,7 @@
 		}
 	}
 	/* shop checkout - end */
-	
+
 	/* home carparts - start */
 	.carparts_header .header_top,
 	.carparts_header .header_bottom {
@@ -2498,7 +2498,7 @@
 			box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.15);
 		}
 	}
-	
+
 	.carparts_banner {
 		min-height: 770px;
 	}
@@ -2537,33 +2537,33 @@
 		padding: 5px;
 		max-width: 50%;
 	}
-	
+
 	.primary_carparts_category .item_image {
 		width: 170px;
 		height: 170px;
 	}
-	
+
 	.carparts_section_title .title_text {
 		font-size: 50px;
 	}
 	.carparts_section_title .sub_title {
 		font-size: 18px;
 	}
-	
+
 	.home_carparts .custom_btn {
 		font-size: 16px;
 	}
 	.home_carparts .custom_btn.btn_sm {
 		font-size: 14px;
 	}
-	
+
 	.carparts_product_grid .item_content {
 		padding: 20px;
 	}
 	.carparts_product_grid .item_title > a {
 		font-size: 20px;
 	}
-	
+
 	.carparts_section_title {
 		text-align: center;
 	}
@@ -2571,7 +2571,7 @@
 		margin-top: 30px;
 		justify-content: center;
 	}
-	
+
 	.Interior_carparts .item_content {
 		padding: 25px;
 	}
@@ -2586,7 +2586,7 @@
 			object-fit: cover;
 		}
 	}
-	
+
 	.new_carparts_content {
 		padding: 0px;
 		max-width: 370px;
@@ -2596,11 +2596,11 @@
 	.new_carparts_content .item_title {
 		font-size: 36px;
 	}
-	
+
 	.carparts_blog_listlayout .item_title {
 		font-size: 40px;
 	}
-	
+
 	.carparts_footer {
 		.footer_widget_area {
 			padding: 60px 0px;
@@ -2618,18 +2618,18 @@
 			margin-top: 10px;
 		}
 	}
-	
+
 	.breadcrumb_section {
 		min-height: 400px;
 		padding-bottom: 100px;
 	}
-	
+
 	.carparts_filetr_bar .option_title,
 	.carparts_filetr_bar .nice-select {
 		font-size: 15px;
 		margin-right: 10px;
 	}
-	
+
 	.shop_details_content .option_select .nice-select {
 		height: 50px;
 		line-height: 48px;
@@ -2639,7 +2639,7 @@
 		height: 45px;
 	}
 	/* home carparts - end */
-	
+
 	/* home classic ecommerce - start */
 	.classic_ecommerce_header .header_top {
 		display: none;
@@ -2692,11 +2692,11 @@
 		padding: 30px;
 		max-width: 370px;
 	}
-	
+
 	.column4_element_grid .element-item {
 		width: 33.333%;
 	}
-	
+
 	.ecommerce_newsletter .form_wrap {
 		max-width: 670px;
 	}
@@ -2718,7 +2718,7 @@
 			}
 		}
 	}
-	
+
 	.ce_page_title {
 		font-size: 54px;
 	}
@@ -2727,7 +2727,7 @@
 		margin-bottom: 10px;
 	}
 	/* home classic ecommerce - end */
-	
+
 	/* home creative onelook - start */
 	.onelook_main_slider {
 		.slider_image {
@@ -2766,7 +2766,7 @@
 		line-height: 50px;
 	}
 	/* home creative onelook - end */
-	
+
 	/* home electronic - end */
 	.electronic_header .header_bottom,
 	.electronic_header .medical_search_bar,
@@ -2783,7 +2783,7 @@
 	.alldepartments_dropdown.show {
 		display: block;
 	}
-	
+
 	.electronic_slider {
 		margin: 30px 0px;
 	}
@@ -2796,7 +2796,7 @@
 		margin: 0px;
 		margin-bottom: 30px;
 	}
-	
+
 	.electronic_section_title .title_text {
 		padding: 25px;
 		display: block;
@@ -2868,7 +2868,7 @@
 	.consumer_content_wrap {
 		margin-bottom: 30px;
 	}
-	
+
 	.trending_products_list {
 		margin-top: 10px;
 		li {
@@ -2879,7 +2879,7 @@
 	.electronic_filter_bar > li:not(:last-child) {
 		margin-right: 20px;
 	}
-	
+
 	.electronic_details_description .nav {
 		padding: 15px 30px;
 	}
@@ -2897,7 +2897,7 @@
 		padding: 30px;
 	}
 	/* home electronic - end */
-	
+
 	/* home fashion - start */
 	.fashion_slider .circle_shape span {
 		width: 500px;
@@ -3001,7 +3001,7 @@
 		padding: 40px 0px;
 	}
 	/* home fashion - end */
-	
+
 	/* home fashion minimal - start */
 	.fashion_minimal_header .header_top,
 	.fashion_minimal_header .btns_group {
@@ -3078,7 +3078,7 @@
 		}
 	}
 	/* home fashion minimal - end */
-	
+
 	/* home furniture - start */
 	.furniture_slider .slider_content {
 		margin: auto;
@@ -3193,7 +3193,7 @@
 		padding: 10px 35px;
 	}
 	/* home furniture - end */
-	
+
 	/* home gadget - start */
 	.gadget_banner {
 		text-align: center;
@@ -3294,7 +3294,7 @@
 		padding: 15px 0px;
 	}
 	/* home gadget - end */
-	
+
 	/* home lookbook creative - start */
 	.lookbook_creative_header .header_content_wrap {
 		min-height: auto;
@@ -3328,7 +3328,7 @@
 		padding: 10px 35px;
 	}
 	/* home lookbook creative - end */
-	
+
 	/* home lookbook slide - start */
 	.header_section .brand_logo {
 		padding-right: 0px;
@@ -3337,7 +3337,7 @@
 		display: none;
 	}
 	/* home lookbook slide - end */
-	
+
 	/* home medical - start */
 	.medical_header .header_top,
 	.medical_search_bar,
@@ -3403,7 +3403,7 @@
 		margin-bottom: 10px;
 	}
 	/* home medical - end */
-	
+
 	/* home modern - start */
 	.modern_section_title {
 		text-align: center;
@@ -3458,7 +3458,7 @@
 		}
 	}
 	/* home modern - end */
-	
+
 	/* home modern - start */
 	.minimal_slider h3 {
 		font-size: 52px;
@@ -3500,14 +3500,14 @@
 		}
 	}
 	/* home modern - end */
-	
+
 	/* home minimal - start */
 	.minimal_header .header_content_wrap {
 		min-height: auto;
 		padding: 15px 0px;
 	}
 	/* home minimal - end */
-	
+
 	/* home motorcycle - start */
 	.motorcycle_header .action_items {
 		display: none;
@@ -3706,7 +3706,7 @@
 		margin-bottom: 15px;
 	}
 	/* home motorcycle - end */
-	
+
 	/* home parallax shop - start */
 	.parallax_shop_header .action_btns_group {
 		display: flex;
@@ -3759,7 +3759,7 @@
 		line-height: 52px;
 	}
 	/* home parallax shop - end */
-	
+
 	/* home simple shop - start */
 	.simple_shop_header .header_content_wrap {
 		min-height: auto;
@@ -3809,7 +3809,7 @@
 		}
 	}
 	/* home simple shop - end */
-	
+
 	/* home single story - start */
 	.single_story_header .action_btns_group {
 		width: 40%;
@@ -3824,7 +3824,7 @@
 		width: 60%;
 	}
 	/* home single story - end */
-	
+
 	/* home sports - start */
 	.sports_slider .item_image_2 {
 		left: -8%;
@@ -3894,7 +3894,7 @@
 		padding: 10px 30px;
 	}
 	/* home sports - end */
-	
+
 	/* home supermarket - start */
 	.supermarket_header .header_top,
 	.supermarket_header .alart_text {
@@ -3985,7 +3985,7 @@
 		}
 	}
 	/* home supermarket - end */
-	
+
 	/* home watch - start */
 	.watch_slider .item {
 		align-items: center;
@@ -4098,7 +4098,7 @@
 		max-width: 100%;
 		margin-bottom: 20px;
 	}
-	
+
 	.watch_feature_listlayout .item_image,
 	.watch_feature_listlayout .item_content {
 		margin: auto;
@@ -4120,7 +4120,7 @@
 		}
 	}
 	/* home watch - end */
-	
+
 	/* fashion minimal shop details - start */
 	.fm_details_section .di_tab_nav {
 		margin-top: 15px;
@@ -4150,7 +4150,7 @@
 		font-size: 18px;
 	}
 	/* fashion minimal shop details - end */
-	
+
 	/* fashion shop - start */
 	.fashion_header .action_btns_group button {
 		width: 50px;
@@ -4164,26 +4164,26 @@
 		max-width: 400px;
 	}
 	/* fashion shop - end */
-	
+
 	/* fashion shop details - start */
 	.fashion_details .shop_details_content {
 		margin-top: 40px;
 	}
 	/* fashion shop details - end */
-	
+
 	/* furniture shop details - start */
 	.furniture_details .shop_details_content {
 		margin-top: 30px;
 	}
 	/* furniture shop details - end */
-	
+
 	/* gadgert shop details - start */
 	.gadget_details_section .shop_details_content {
 		padding: 0px;
 		margin-top: 30px;
 	}
 	/* gadgert shop details - end */
-	
+
 	/* lookbook shop - start */
 	.lookbook_product_section .carparts_filetr_bar,
 	.medical_product_section .carparts_filetr_bar {
@@ -4201,7 +4201,7 @@
 		}
 	}
 	/* lookbook shop - end */
-	
+
 	/* medical shop - start */
 	.breadcrumb_section.medical_breadcrumb {
 		min-height: auto;
@@ -4213,25 +4213,25 @@
 		font-size: 48px;
 	}
 	/* medical shop - end */
-	
+
 	/* medical shop details - start */
 	.medical_details_section .details_content {
 		margin-top: 30px;
 	}
 	/* medical shop details - end */
-	
+
 	/* modern minimal shop details - start */
 	.shop_details .shop_details_content {
 		margin-top: 30px;
 	}
 	/* modern minimal shop details - end */
-	
+
 	/* modern shop details - start */
 	.modern_details_section .shop_details_content {
 		margin-top: 30px;
 	}
 	/* modern shop details - end */
-	
+
 	/* motorcycle shop - start */
 	.motorcycle_deals_carousel2 .carousel_nav button {
 		width: 60px;
@@ -4253,7 +4253,7 @@
 		padding: 20px;
 	}
 	/* motorcycle shop - end */
-	
+
 	/* motorcycle shop - start */
 	.motorcycle_details .motorcycle_details_content {
 		margin-top: 30px;
@@ -4262,7 +4262,7 @@
 		font-size: 60px;
 	}
 	/* motorcycle shop - end */
-	
+
 	/* motorcycle shop - start */
 	.sports_details .details_content {
 		margin-top: 30px;
@@ -4276,7 +4276,7 @@
 		}
 	}
 	/* motorcycle shop - end */
-	
+
 	/* quick view - start */
 	.quickview_modal .modal-dialog .modal-content {
 		max-width: 400px;
@@ -4291,12 +4291,12 @@
 		display: block;
 	}
 	/* quick view - end */
-	
+
 }
 
 /* max-width: 880px - start */
 @media screen and (max-width: 880px) {
-	
+
 	/* home carparts - start */
 	.carparts_product_grid.column_3 {
 		.item_image {
@@ -4306,7 +4306,7 @@
 			}
 		}
 	}
-	
+
 	.carparts_product_listlayout p {
 		font-size: 18px;
 	}
@@ -4322,13 +4322,13 @@
 		padding: 30px;
 	}
 	/* home carparts - end */
-	
+
 	/* home electronic - start */
 	.electronic_product_columns.has_3columns > li {
 		width: 50%;
 	}
 	/* home electronic - end */
-	
+
 	/* home fashion - start */
 	.fashion_header .action_btns_group button {
 		width: 50px;
@@ -4365,7 +4365,7 @@
 		height: 400px;
 	}
 	/* home fashion - end */
-	
+
 	/* home motorcycle - start */
 	.motorcycle_slider .slider_content {
 		margin: auto;
@@ -4396,7 +4396,7 @@
 		display: none;
 	}
 	/* home motorcycle - end */
-	
+
 	/* furniture shop - start */
 	.breadcrumb_section.furniture_breadcrumb {
 		min-height: auto;
@@ -4410,7 +4410,7 @@
 		margin-top: 55px;
 	}
 	/* furniture shop - end */
-	
+
 	/* motorcycle shop details - start */
 	.motorcycle_details .btns_group li:not(:last-child) {
 		margin-bottom: 10px;
@@ -4427,7 +4427,7 @@
 		margin-bottom: 40px;
 	}
 	/* motorcycle shop details - end */
-	
+
 }
 /* max-width: 880px - end */
 
@@ -4441,23 +4441,23 @@
 ==================================================================================================== */
 
 @media screen and (max-width: 767px) {
-	
+
 	/* global - start */
 	.sec_ptb_100 {padding: 80px 0px;}
 	.sec_ptb_140 {padding: 100px 0px;}
 	.mb_100 {margin-bottom: 80px;}
-	
+
 	.backtotop {
 		width: 40px;
 		height: 40px;
 		font-size: 14px;
 	}
-	
+
 	.order-last {
 		order: 0;
 	}
 	/* global - end */
-	
+
 	/* footer - start */
 	.default_footer {
 		.footer_widget {
@@ -4472,7 +4472,7 @@
 		}
 	}
 	/* footer - end */
-	
+
 	/* breadcrumb - start */
 	.breadcrumb_section {
 		min-height: 400px;
@@ -4487,7 +4487,7 @@
 		margin-bottom: 15px;
 	}
 	/* breadcrumb - end */
-	
+
 	/* 404 - start */
 	.error_content .error_text {
 		font-size: 140px;
@@ -4508,19 +4508,19 @@
 		letter-spacing: 1px;
 	}
 	/* 404 - end */
-	
+
 	/* blog details - start */
 	.details_section .post_meta.ul_li_right {
 		justify-content: flex-start;
 	}
 	/* blog details - end */
-	
+
 	/* contact - start */
 	#mapBox {
 		height: 300px;
 	}
 	/* contact - end */
-	
+
 	/* register - start */
 	.reg_form_wrap {
 		padding: 60px;
@@ -4533,7 +4533,7 @@
 		margin-bottom: 40px;
 	}
 	/* register - end */
-	
+
 	/* shop details - start */
 	.shop_details_content {
 		margin-top: 40px;
@@ -4544,7 +4544,7 @@
 		}
 	}
 	/* shop details - end */
-	
+
 	/* shop checkout - start */
 	.billing_form .form_item,
 	.billing_form .option_select,
@@ -4560,7 +4560,7 @@
 		padding: 30px;
 	}
 	/* shop checkout - end */
-	
+
 	/* home carparts - start */
 	.carparts_deals_listlayout .deals_image {
 		float: none;
@@ -4579,17 +4579,17 @@
 	.carparts_deals_carousel .carparts_deals_listlayout {
 		padding: 60px 30px;
 	}
-	
+
 	.carparts_block_tabs a {
 		height: 45px;
 		font-size: 18px;
 		line-height: 47px;
 	}
-	
+
 	.carparts_blog_listlayout .item_content {
 		margin-top: 30px;
 	}
-	
+
 	.carparts_newsletter .newsletter_title {
 		padding: 0px;
 		text-align: center;
@@ -4601,7 +4601,7 @@
 			margin-bottom: 15px;
 		}
 	}
-	
+
 	.carparts_breadcrumb .breadcrumb_nav li {
 		font-size: 16px;
 	}
@@ -4624,12 +4624,12 @@
 	.carparts_pagination_nav {
 		justify-content: center;
 	}
-	
+
 	.carparts_product_listlayout p {
 		font-size: 16px;
 	}
 	/* home carparts - end */
-	
+
 	/* home classic ecommerce - start */
 	.classic_ecommerce_slider h3 {
 		font-size: 54px;
@@ -4657,7 +4657,7 @@
 	.column4_element_grid .element-item {
 		width: 50%;
 	}
-	
+
 	.ce_breadcrumb_nav_wrap .goback_btn {
 		margin-top: 15px;
 	}
@@ -4675,7 +4675,7 @@
 		right: -320px;
 	}
 	/* home classic ecommerce - end */
-	
+
 	/* home creative onelook - start */
 	.onelook_section_title .title_text {
 		font-size: 20px;
@@ -4694,7 +4694,7 @@
 		margin-bottom: 20px;
 	}
 	/* home creative onelook - end */
-	
+
 	/* home electronic - start */
 	.electronic_tabs_nav a {
 		font-size: 18px;
@@ -4727,7 +4727,7 @@
 		}
 	}
 	/* home electronic - end */
-	
+
 	/* home fashion - start */
 	.column5_element_grid .element-item {
 		width: 50%;
@@ -4753,7 +4753,7 @@
 		}
 	}
 	/* home fashion - end */
-	
+
 	/* home fashion minimal - start */
 	.fm_feature_product .item_title {
 		font-size: 42px;
@@ -4762,7 +4762,7 @@
 		font-size: 20px;
 	}
 	/* home fashion minimal - end */
-	
+
 	/* home gadget - start */
 	.gadget_section_title .title_text {
 		font-size: 50px;
@@ -4797,7 +4797,7 @@
 		padding: 25px;
 	}
 	/* home gadget - end */
-	
+
 	/* home lookbook creative - start */
 	.lookbook_creative_slider h3 {
 		font-size: 54px;
@@ -4847,7 +4847,7 @@
 		font-size: 36px;
 	}
 	/* home lookbook creative - end */
-	
+
 	/* home medical - start */
 	.medical_section_title {
 		text-align: center;
@@ -4863,7 +4863,7 @@
 		font-size: 32px;
 	}
 	/* home medical - end */
-	
+
 	/* home modern - start */
 	.modern_slider h3 {
 		font-size: 48px;
@@ -4881,7 +4881,7 @@
 		text-align: center;
 	}
 	/* home modern - end */
-	
+
 	/* home minimal - start */
 	.minimal_advertisement .item_image {
 		max-width: 470px;
@@ -4894,7 +4894,7 @@
 		text-align: center;
 	}
 	/* home minimal - end */
-	
+
 	/* home motorcycle - start */
 	.motorcycle_slider .carousel_nav {
 		padding: 0px;
@@ -4961,7 +4961,7 @@
 		}
 	}
 	/* home motorcycle - end */
-	
+
 	/* home parallax shop - start */
 	.home_parallax_shop .carousel_nav button {
 		width: 50px;
@@ -5010,7 +5010,7 @@
 		}
 	}
 	/* home parallax shop - end */
-	
+
 	/* home simple shop - start */
 	.simple_shop_slider .item {
 		min-height: 500px;
@@ -5040,14 +5040,14 @@
 		text-align: center;
 	}
 	/* home simple shop - end */
-	
+
 	/* home single story - start */
 	.single_story_slider .item_content .item_title {
 		font-size: 50px;
 		margin-bottom: 15px;
 	}
 	/* home single story - end */
-	
+
 	/* home sports - start */
 	.sports_slider .carousel_nav button {
 		padding: 5px;
@@ -5195,7 +5195,7 @@
 		}
 	}
 	/* home sports - end */
-	
+
 	/* home supermarket - start */
 	.supermarket_product_columns.has_3columns > li {
 		width: 100%;
@@ -5247,7 +5247,7 @@
 		}
 	}
 	/* home supermarket - end */
-	
+
 	/* home watch - start */
 	.watch_slider .item {
 		min-height: 570px;
@@ -5297,7 +5297,7 @@
 		}
 	}
 	/* home watch - end */
-	
+
 	/* fashion shop - start */
 	.fp_filter_bar {
 		display: block;
@@ -5315,7 +5315,7 @@
 		justify-content: center;
 	}
 	/* fashion shop - end */
-	
+
 	/* furniture shop details - start */
 	.furniture_details .nav_wrap {
 		width: 100%;
@@ -5347,7 +5347,7 @@
 		margin-right: 15px;
 	}
 	/* furniture shop details - end */
-	
+
 	/* gadget shop details - start */
 	.gadget_product_description .info_video_wrap ul {
 		font-size: 16px;
@@ -5355,7 +5355,7 @@
 		padding-left: 0px;
 	}
 	/* gadget shop details - end */
-	
+
 	/* medical shop - start */
 	.breadcrumb_section.medical_breadcrumb {
 		padding: 80px 0px;
@@ -5383,7 +5383,7 @@
 		justify-content: center;
 	}
 	/* medical shop - end */
-	
+
 	/* medical shop details - start */
 	.medical_details_description .nav a {
 		padding: 0px 30px;
@@ -5407,14 +5407,14 @@
 		line-height: 52px;
 	}
 	/* medical shop details - end */
-	
+
 	/* modern shop - start */
 	.modern_feature_carousel .carousel_nav button {
 		width: 45px;
 		height: 45px;
 	}
 	/* modern shop - end */
-	
+
 	/* motorcycle shop - start */
 	.motorcycle_page_title {
 		font-size: 70px;
@@ -5431,7 +5431,7 @@
 		max-height: 210px;
 	}
 	/* motorcycle shop - end */
-	
+
 }
 
 /* ====================================================================================================
@@ -5444,7 +5444,7 @@
 ==================================================================================================== */
 
 @media screen and (max-width: 680px) {
-	
+
 	/* global - start */
 	.carousel_nav {
 		button {
@@ -5462,13 +5462,13 @@
 		}
 	}
 	/* global - end */
-	
+
 	/* register - start */
 	.reg_form_wrap.login_form {
 		background-position: left 390px center;
 	}
 	/* register - end */
-	
+
 	/* shop details - start */
 	.details_description_tab .nav {
 		li {
@@ -5484,19 +5484,19 @@
 		}
 	}
 	/* shop details - end */
-	
+
 	/* home carparts - start */
 	.carparts_product_listlayout {
 		display: block;
 	}
 	/* home carparts - end */
-	
+
 	/* home classic ecommerce - start */
 	.ce_page_title {
 		font-size: 42px;
 	}
 	/* home classic ecommerce - end */
-	
+
 	/* home creative onelook - start */
 	.onelook_main_slider .slider_image {
 		max-width: 200px;
@@ -5548,7 +5548,7 @@
 		}
 	}
 	/* home creative onelook - end */
-	
+
 	/* home electronic - start */
 	.electronic_slider .item {
 		display: block;
@@ -5600,13 +5600,13 @@
 		margin-top: 40px;
 	}
 	/* home electronic - end */
-	
+
 	/* home fashion - start */
 	.fashion_section_title .title_text {
 		font-size: 38px;
 	}
 	/* home fashion - end */
-	
+
 	/* home furniture - start */
 	.furniture_slider.arrow_ycenter {
 		.carousel_nav {
@@ -5653,7 +5653,7 @@
 		min-height: 400px;
 	}
 	/* home furniture - end */
-	
+
 	/* home lookbook creative - start */
 	.home_lookbook_creative {
 		.arrow_ycenter {
@@ -5668,7 +5668,7 @@
 		}
 	}
 	/* home lookbook creative - end */
-	
+
 	/* home modern - start */
 	.modern_slider {
 		.carousel_nav {
@@ -5690,7 +5690,7 @@
 		}
 	}
 	/* home modern - end */
-	
+
 	/* home minimal - start */
 	.minimal_slider {
 		.carousel_nav {
@@ -5725,7 +5725,7 @@
 		font-size: 20px;
 	}
 	/* home minimal - end */
-	
+
 	/* home parallax shop - start */
 	.parallax_shop_slider .item {
 		min-height: 600px;
@@ -5746,7 +5746,7 @@
 		font-size: 20px;
 	}
 	/* home parallax shop - end */
-	
+
 	/* home single story - start */
 	.single_story_header .mobile_menu_btn span:not(:last-child) {
 		margin-right: 0px;
@@ -5761,7 +5761,7 @@
 		margin-bottom: 15px;
 	}
 	/* home single story - end */
-	
+
 	/* home sports - start */
 	.sports_slider .carousel_nav {
 		margin-top: 0px;
@@ -5848,7 +5848,7 @@
 		padding: 0px 15px;
 	}
 	/* home sports - end */
-	
+
 	/* home watch - start */
 	.watch_slider .carousel_nav {
 		margin-top: 0px;
@@ -5868,7 +5868,7 @@
 		font-size: 54px;
 	}
 	/* home watch - end */
-	
+
 	/* furniture shop - start */
 	.furniture_breadcrumb .deco_image {
 		bottom: -30px;
@@ -5881,7 +5881,7 @@
 		display: block;
 	}
 	/* furniture shop - end */
-	
+
 	/* furniture shop details - start */
 	.f2d_description_tab .nav li {
 		width: 100%;
@@ -5899,13 +5899,13 @@
 		font-size: 28px;
 	}
 	/* furniture shop details - end */
-	
+
 	/* modern minimal shop - start */
 	.minimal_page_title {
 		font-size: 60px;
 	}
 	/* modern minimal shop - end */
-	
+
 	/* sports shop details - start */
 	.sports_details .item_title {
 		font-size: 42px;
@@ -5917,7 +5917,7 @@
 		padding: 20px;
 	}
 	/* sports shop details - end */
-	
+
 }
 
 /* ====================================================================================================
@@ -5930,7 +5930,7 @@
 ==================================================================================================== */
 
 @media screen and (max-width: 575px) {
-	
+
 	/* global - start */
 	.pagination_nav a {
 		height: 40px;
@@ -5938,7 +5938,7 @@
 		font-size: 14px;
 	}
 	/* global - end */
-	
+
 	/* header - start */
 	.header_section .brand_logo .brand_link {
 		max-width: 170px;
@@ -5962,7 +5962,7 @@
 		height: 40px;
 		font-size: 14px;
 	}
-	
+
 	.cart_sidebar {
 		width: 300px;
 		right: -320px;
@@ -5970,7 +5970,7 @@
 	.cart_sidebar .total_price span {
 		font-size: 15px;
 	}
-	
+
 	.sidebar_mobile_menu {
 		width: 300px;
 		right: -320px;
@@ -5983,7 +5983,7 @@
 		font-size: 16px;
 	}
 	/* header - end */
-	
+
 	/* breadcrumb - start */
 	.page_title {
 		font-size: 42px;
@@ -5998,7 +5998,7 @@
 		padding: 80px 0px;
 	}
 	/* breadcrumb - end */
-	
+
 	/* 404 - start */
 	.error_content .error_text {
 		font-size: 110px;
@@ -6018,7 +6018,7 @@
 		letter-spacing: 0px;
 	}
 	/* 404 - end */
-	
+
 	/* blog details - start */
 	.post_share_box {
 		padding: 20px;
@@ -6038,13 +6038,13 @@
 			border-bottom: 1px solid #e6e6e6;
 		}
 	}
-	
+
 	.related_post_carousel .carousel_nav {
 		margin-top: 30px;
 		position: static;
 	}
 	/* blog details - end */
-	
+
 	/* register - start */
 	.reg_form_wrap.login_form {
 		background-position: left 330px center;
@@ -6053,7 +6053,7 @@
 		padding: 50px 30px;
 	}
 	/* register - end */
-	
+
 	/* shop details - start */
 	.offer_fullimage {
 		display: flex;
@@ -6066,13 +6066,13 @@
 		font-size: 26px;
 	}
 	/* shop details - end */
-	
+
 	/* shop checkout - start */
 	.checkout_step li {
 		width: 100%;
 	}
 	/* shop checkout - end */
-	
+
 	/* home carparts - start */
 	.carparts_banner h1 {
 		font-size: 42px;
@@ -6090,7 +6090,7 @@
 		width: 75%;
 		height: 50px;
 	}
-	
+
 	.carparts_block_tabs {
 		margin: -2px;
 		margin-top: 28px;
@@ -6101,14 +6101,14 @@
 			}
 		}
 	}
-	
+
 	.carparts_section_title .title_text {
 		font-size: 42px;
 	}
 	.carparts_section_title .sub_title {
 		font-size: 16px;
 	}
-	
+
 	.carparts_inline_tabs {
 		margin: -10px;
 		margin-top: 10px;
@@ -6120,7 +6120,7 @@
 		}
 	}
 	/* home carparts - end */
-	
+
 	/* home classic ecommerce - start */
 	.home_classic_ecommerce .custom_btn {
 		font-size: 12px;
@@ -6133,7 +6133,7 @@
 		padding-top: 150px;
 	}
 	/* home classic ecommerce - end */
-	
+
 	/* home electronic - start */
 	.electronic_deals_slider .electronic_deals_item {
 		padding: 20px;
@@ -6169,7 +6169,7 @@
 		max-height: 50px;
 	}
 	/* home electronic - end */
-	
+
 	/* home fashion - start */
 	.fashion_slider .slider_image {
 		max-width: 280px;
@@ -6242,13 +6242,13 @@
 		padding: 0px 30px;
 	}
 	/* home fashion - end */
-	
+
 	/* home fashion minimal - start */
 	.fm_section_title .title_text {
 		font-size: 36px;
 	}
 	/* home fashion minimal - end */
-	
+
 	/* home gadget - start */
 	.gadget_banner {
 		min-height: 850px;
@@ -6294,7 +6294,7 @@
 		margin-top: 15px;
 	}
 	/* home gadget - end */
-	
+
 	/* home lookbook creative - start */
 	.lookbook_creative_slider .carousel_nav button,
 	.lookbook_creative_slider .carousel_nav button {
@@ -6316,7 +6316,7 @@
 		font-size: 16px;
 	}
 	/* home lookbook creative - end */
-	
+
 	/* home lookbook slide - start */
 	.lookbook_slide .item_content {
 		padding: 15px;
@@ -6329,13 +6329,13 @@
 		margin-bottom: 15px;
 	}
 	/* home lookbook slide - end */
-	
+
 	/* home modern - start */
 	.modern_slider .item {
 		min-height: 550px;
 	}
 	/* home modern - end */
-	
+
 	/* home minimal - start */
 	.minimal_slider .item {
 		min-height: 600px;
@@ -6347,7 +6347,7 @@
 		font-size: 42px;
 	}
 	/* home minimal - end */
-	
+
 	/* home simple shop - start */
 	.ss_new_srrivals .item_content {
 		width: 80%;
@@ -6376,7 +6376,7 @@
 		margin-top: 69px;
 	}
 	/* home simple shop - end */
-	
+
 	/* home supermarket - start */
 	.home_supermarket .carousel_nav button {
 		width: 45px;
@@ -6389,7 +6389,7 @@
 		font-size: 28px;
 	}
 	/* home supermarket - end */
-	
+
 	/* home watch - start */
 	.watch_slider .child_item {
 		padding: 15px;
@@ -6418,7 +6418,7 @@
 		margin-top: 73px;
 	}
 	/* home watch - end */
-	
+
 	/* fashion minimal shop details - start */
 	.fashion_minimal_header + main {
 		margin-top: 68px;
@@ -6441,7 +6441,7 @@
 		}
 	}
 	/* fashion minimal shop details - end */
-	
+
 	/* fashion shop - start */
 	.fashion_banner h1 {
 		font-size: 42px;
@@ -6455,7 +6455,7 @@
 		margin-top: 100px;
 	}
 	/* fashion shop - end */
-	
+
 	/* furniture shop - start */
 	.furniture_header + main {
 		margin-top: 68px;
@@ -6465,7 +6465,7 @@
 		text-shadow: 4px 0px 1px #b6b5b5;
 	}
 	/* furniture shop - end */
-	
+
 	/* gadget shop details - start */
 	.g_page_title {
 		font-size: 36px;
@@ -6487,13 +6487,13 @@
 		height: 80px;
 	}
 	/* gadget shop details - end */
-	
+
 	/* medical shop - start */
 	.medical_header + main {
 		margin-top: 67px;
 	}
 	/* medical shop - end */
-	
+
 	/* medical shop details - start */
 	.medical_details_section .btns_group li {
 		width: 100%;
@@ -6503,19 +6503,19 @@
 		}
 	}
 	/* medical shop details - end */
-	
+
 	/* modern minimal shop - start */
 	.minimal_page_title {
 		font-size: 48px;
 	}
 	/* modern minimal shop - end */
-	
+
 	/* modern shop details - start */
 	.modern_details_section .btns_group li {
 		width: 100%;
 	}
 	/* modern shop details - end */
-	
+
 	/* motorcycle shop - start */
 	.motorcycle_page_title {
 		font-size: 58px;
@@ -6524,13 +6524,13 @@
 		font-size: 16px;
 	}
 	/* motorcycle shop - end */
-	
+
 	/* sports shop - start */
 	.sports_page_title {
 		font-size: 50px;
 	}
 	/* sports shop - end */
-	
+
 }
 
 /* ====================================================================================================
@@ -6543,19 +6543,19 @@
 ==================================================================================================== */
 
 @media screen and (max-width: 480px) {
-	
+
 	/* global - start */
 	.custom_btn {
 		height: 45px;
 	}
 	/* global - end */
-	
+
 	/* blog - start */
 	.blog_grid .blog_title > a {
 		font-size: 26px;
 	}
 	/* blog - end *
-	
+
 	/* blog details - start */
 	.post_author .author_image {
 		margin: 0px;
@@ -6570,14 +6570,14 @@
 		font-size: 14px;
 	}
 	/* blog details - end */
-	
+
 	/* home carparts - start */
 	.carparts_search > ul > li,
 	.carparts_search > ul > li:last-child {
 		flex: 100%;
 		max-width: 100%;
 	}
-	
+
 	.carparts_deals_carousel .carousel_nav {
 		top: 15px;
 		right: 15px;
@@ -6591,19 +6591,19 @@
 	.carparts_deals_listlayout .deals_content {
 		max-width: 370px;
 	}
-	
+
 	.brand_item {
 		height: 110px;
 		img {
 			max-height: 90px;
 		}
 	}
-	
+
 	.carparts_product_listlayout .item_image {
 		height: 300px;
 	}
 	/* home carparts - end */
-	
+
 	/* home classic ecommerce - start */
 	.classic_ecommerce_slider h3 {
 		font-size: 44px;
@@ -6619,7 +6619,7 @@
 		width: 100%;
 	}
 	/* home classic ecommerce - end */
-	
+
 	/* home creative onelook - start */
 	.onelook_product3 .item_image {
 		height: 250px;
@@ -6628,7 +6628,7 @@
 		}
 	}
 	/* home creative onelook - end */
-	
+
 	/* home electronic - start */
 	.electronic_product_columns.has_4columns > li,
 	.electronic_product_columns.has_5columns > li,
@@ -6647,7 +6647,7 @@
 		width: 100%;
 	}
 	/* home electronic - end */
-	
+
 	/* home fashion minimal - start */
 	.fm_tabs_nav li {
 		width: 100%;
@@ -6688,7 +6688,7 @@
 		font-size: 15px;
 	}
 	/* home fashion minimal - end */
-	
+
 	/* home gadget - start */
 	.gadget_banner .banner_image {
 		bottom: -90px;
@@ -6722,7 +6722,7 @@
 		font-size: 34px;
 	}
 	/* home gadget - end */
-	
+
 	/* home lookbook creative - start */
 	.lookbook_creative_slider h3 {
 		font-size: 36px;
@@ -6745,13 +6745,13 @@
 		letter-spacing: 5px;
 	}
 	/* home lookbook creative - end */
-	
+
 	/* home lookbook slide - start */
 	.lookbook_slide .item_content {
 		max-width: 370px;
 	}
 	/* home lookbook slide - end */
-	
+
 	/* home modern - start */
 	.modern_slider .carousel_nav button {
 		width: 30px;
@@ -6782,13 +6782,13 @@
 		font-size: 30px;
 	}
 	/* home modern - end */
-	
+
 	/* home motorcycle - start */
 	.motorcycle_category_group li {
 		width: 100%;
 	}
 	/* home motorcycle - end */
-	
+
 	/* home parallax shop - start */
 	.parallax_shop_header .action_btns_group button {
 		width: 35px;
@@ -6877,7 +6877,7 @@
 		}
 	}
 	/* home parallax shop - end */
-	
+
 	/* home simple shop - start */
 	.ss_newsletter_section .form_item .submit_btn {
 		width: 100%;
@@ -6918,7 +6918,7 @@
 		width: 50%;
 	}
 	/* home simple shop - end */
-	
+
 	/* home single story - start */
 	.single_story_slider .degree_btn {
 		top: 15px;
@@ -6933,7 +6933,7 @@
 		display: block;
 	}
 	/* home single story - end */
-	
+
 	/* home sports - start */
 	.sports_slider .item_image_2 {
 		max-width: 100px;
@@ -6977,7 +6977,7 @@
 		right: -28%;
 	}
 	/* home sports - end */
-	
+
 	/* home supermarket - start */
 	.supermarket_product_columns.has_4columns > li {
 		width: 100%;
@@ -7002,7 +7002,7 @@
 		height: 40px;
 	}
 	/* home supermarket - end */
-	
+
 	/* home watch - start */
 	.watch_big_deals {
 		.countdown_timer {
@@ -7042,11 +7042,11 @@
 		left: 15px;
 	}
 	/* home watch - end */
-	
+
 }
 
 @media screen and (max-width: 414px) {
-	
+
 	/* shop details - start */
 	.shop_details_content .item_size_list li:last-child {
 		width: 100%;
@@ -7074,7 +7074,7 @@
 		}
 	}
 	/* shop details - end */
-	
+
 	/* shop checkout - start */
 	.cart_pricing_table .table_title {
 		font-size: 18px;
@@ -7091,7 +7091,7 @@
 		font-size: 14px;
 	}
 	/* shop checkout - end */
-	
+
 	/* home carparts - start */
 	.carparts_header .brand_logo {
 		padding: 15px;
@@ -7104,7 +7104,7 @@
 		margin-bottom: 15px;
 	}
 	/* home carparts - end */
-	
+
 	/* home electronic - start */
 	.electronic_slider h3 {
 		font-size: 30px;
@@ -7155,7 +7155,7 @@
 		max-height: 320px;
 	}
 	/* home electronic - end */
-	
+
 	/* home furniture - start */
 	.furniture_slider h3 {
 		font-size: 40px;
@@ -7172,7 +7172,7 @@
 		margin-bottom: 20px;
 	}
 	/* home furniture - end */
-	
+
 	/* home gadget - start */
 	.gadget_testimonial_item .border_wrap {
 		padding: 10px;
@@ -7180,7 +7180,7 @@
 		background-image: none !important;
 	}
 	/* home gadget - end */
-	
+
 	/* home parallax shop - start */
 	.parallax_shop_header .action_btns_group button {
 		width: 30px;
@@ -7195,7 +7195,7 @@
 		line-height: 30px;
 	}
 	/* home parallax shop - end */
-	
+
 	/* home sports - start */
 	.sports_section_title .title_text {
 		font-size: 36px;
@@ -7227,7 +7227,7 @@
 		display: none;
 	}
 	/* home sports - end */
-	
+
 	/* home watch - start */
 	.watch_slider .child_items_list {
 		margin: 0px;
@@ -7262,7 +7262,7 @@
 		min-height: 440px;
 	}
 	/* home watch - end */
-	
+
 	/* fashion shop - start */
 	.fashion_header .action_btns_group button {
 		width: 35px;
@@ -7271,7 +7271,7 @@
 		line-height: 35px;
 	}
 	/* fashion shop - end */
-	
+
 	/* gadget shop details - start */
 	.gadget_product_info span {
 		min-width: auto;
@@ -7284,7 +7284,7 @@
 		}
 	}
 	/* gadget shop details - end */
-	
+
 	/* medical shop details - start */
 	.medical_details_description .nav a span {
 		height: 45px;
@@ -7294,7 +7294,7 @@
 		padding: 0px 20px;
 	}
 	/* medical shop details - end */
-	
+
 }
 
 /* ====================================================================================================
@@ -7307,13 +7307,13 @@
 ==================================================================================================== */
 
 @media screen and (max-width: 380px) {
-	
+
 	/* global - start */
 	.sec_ptb_100 {padding: 60px 0px;}
 	.sec_ptb_140 {padding: 80px 0px;}
 	.mb_100 {margin-bottom: 60px;}
 	/* global - end */
-	
+
 	/* header - start */
 	.header_section .brand_logo .brand_link {
 		max-width: 140px;
@@ -7324,7 +7324,7 @@
 		font-size: 10px;
 	}
 	/* header - end */
-	
+
 	/* breadcrumb - start */
 	.breadcrumb_section {
 		min-height: 300px;
@@ -7342,7 +7342,7 @@
 		}
 	}
 	/* breadcrumb - end */
-	
+
 	/* 404 - start */
 	.error_content .error_text {
 		font-size: 90px;
@@ -7361,13 +7361,13 @@
 		margin-bottom: 10px;
 	}
 	/* 404 - end */
-	
+
 	/* checkout - start */
 	.order_complete_alart h2 {
 		font-size: 24px;
 	}
 	/* checkout - end */
-	
+
 	/* home carparts - start */
 	.carparts_banner h1 {
 		font-size: 32px;
@@ -7385,13 +7385,13 @@
 		line-height: 50px;
 	}
 	/* home carparts - end */
-	
+
 	/* home classic ecommerce - start */
 	.classic_ecommerce_breadcrumb {
 		padding-top: 130px;
 	}
 	/* home classic ecommerce - end */
-	
+
 	/* home fashion minimal - start */
 	.fashion_minimal_header + main {
 		margin-top: 60px;
@@ -7412,7 +7412,7 @@
 		font-size: 12px;
 		padding: 10px 30px;
 	}
-	
+
 	.medical_page_title {
 		font-size: 38px;
 	}
@@ -7421,7 +7421,7 @@
 		padding-right: 15px;
 	}
 	/* home fashion minimal - end */
-	
+
 	/* home motorcycle - start */
 	.motorcycle_slider h3 {
 		font-size: 42px;
@@ -7448,7 +7448,7 @@
 	.motorcycle_section_title p {
 		font-size: 16px;
 	}
-	
+
 	.motorcycle_big_feature .tabs_menu {
 		li {
 			width: 100px;
@@ -7466,37 +7466,37 @@
 		padding: 20px;
 	}
 	/* home motorcycle - end */
-	
+
 	/* home simple shop - start */
 	.simple_shop_header + main {
 		margin-top: 62px;
 	}
 	/* home simple shop - end */
-	
+
 	/* home single story - start */
 	.single_story_header .action_btns_group li:not(:last-child) {
 		margin-right: 12px;
 	}
 	/* home single story - end */
-	
+
 	/* home watch - start */
 	.watch_header + main {
 		margin-top: 65px;
 	}
 	/* home watch - end */
-	
+
 	/* furniture shop - start */
 	.furniture_header + main {
 		margin-top: 62px;
 	}
 	/* furniture shop - end */
-	
+
 	/* medical shop - start */
 	.medical_header + main {
 		margin-top: 60px;
 	}
 	/* medical shop - end */
-	
+
 }
 
 @media screen and (max-width: 320px) {}

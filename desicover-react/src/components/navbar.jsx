@@ -12,6 +12,7 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import "./navbar.sass";
+import { Link } from "react-router-dom";
 
 const pages = [
     "Men",
@@ -85,12 +86,12 @@ const Navbar = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-3">
                             <div className="brand_logo">
-                                <a className="brand_link" href="index.html">
+                                <Link to="/" className="brand_link">
                                     <img
                                         src="/logo-small.png"
                                         alt="DesiCovers"
                                     />
-                                </a>
+                                </Link>
                                 <ul className="mh_action_btns ul_li clearfix">
                                     <li>
                                         <button

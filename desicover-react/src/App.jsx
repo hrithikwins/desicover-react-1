@@ -9,7 +9,7 @@ export default function App() {
     return (
         <>
             <Navbar />
-            {/* <SwiperCarousel /> */}
+            <SwiperCarousel />
             {/* <NewArrivals /> */}
             {/* <Categories /> */}
             {/* <div className="w-100"><ProductCarousel /></div> */}

@@ -1,5 +1,5 @@
 // ==================================================
-// Project Name  :  Neoncart
+// Project Name  :  Desicovers
 // File          :  JS Base
 // Version       :  1.0.0
 // Author        :  jthemes (https://themeforest.net/user/jthemes)
@@ -58,7 +58,7 @@
   $("[data-bg-color]").each(function () {
     $(this).css("background", $(this).attr("data-bg-color"))
   });
-  
+
   $('[data-background]').each(function() {
     $(this).css('background-image', 'url('+ $(this).attr('data-background') + ')');
   });
@@ -238,7 +238,7 @@
       itemSelector: '.grid-item',
       percentPosition: true,
       columnWidth: '.grid-sizer'
-    }); 
+    });
   });
   // masoney grid layout - end
   // --------------------------------------------------
@@ -285,16 +285,16 @@
   // isotope filtering - end
   // --------------------------------------------------
 
-  
+
   // quantity - start
   // --------------------------------------------------
-  
-  function neoncart_quantity(){
+
+  function Desicovers_quantity(){
     $(document).on('click', '.quantity_input .input_number_decrement, .quantity_input .input_number_increment', function (e) {
       var target = $(e.target),
       qty = target.closest('.quantity_input').find('input.input_number'),
       min, max, step, value;
-      
+
       if (qty.length) {
         min = qty.attr('min') || 0;
         max = qty.attr('max') || 0;
@@ -303,26 +303,26 @@
         max = parseInt(max);
         step = parseInt(step);
         value = parseInt(qty.val());
-        
+
         if (target.is('.input_number_increment')) {
           value += step;
         } else {
           value -= step;
         }
-        
+
         value = Math.max(min, value);
         if (max) {
           value = Math.min(max, value);
         }
-        
+
         qty.val(value).change();
       }
     });
 }
-  neoncart_quantity();
+  Desicovers_quantity();
   // quantity - end
   // --------------------------------------------------
-  
+
   // zoom
   $('.zoom-image img').click(function (event) {
     var ix = $(this).offset().left;
@@ -1167,7 +1167,7 @@
     map.addMarker({
       lat: $markerLat,
       lng: $markerLon,
-      icon: $marker,    
+      icon: $marker,
       infoWindow: {
         content: $info
       }

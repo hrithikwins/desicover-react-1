@@ -1077,7 +1077,7 @@ button {
 ==================================================================================================== */
 /* font family - start
 ==================================================================================================== */
-@font-face {
+/* @font-face {
   font-style: normal;
   font-display: swap;
   font-weight: normal;
@@ -1090,7 +1090,7 @@ button {
   font-weight: normal;
   font-family: "A Love of Thunder";
   src: url("../fonts/aloveofthunder/ALoveofThunder.ttf") format("truetype");
-}
+} */
 /* font family - end
 ==================================================================================================== */
 /* default colors - start

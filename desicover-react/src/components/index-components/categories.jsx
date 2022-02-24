@@ -1,57 +1,77 @@
 const Categories = (props) => {
     return (
         <>
-            <div className="container">
-                <div className="pb-2"></div>
-                <div className="text-center">
-                    <h5>CATEGORIES</h5>
-                </div>
-                {/* <!-- Gallery --> */}
-                <div class="row">
-                    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                        <img
-                            src="/anurag.jpeg"
-                            class="w-100 shadow-1-strong rounded mb-4"
-                            alt="Boat on Calm Water"
-                        />
+            <section class="category_section sec_ptb_100 pb-0 clearfix">
+                <div class="container">
+                    <div class="ecommerce_category_masonry grid">
+                        <div class="grid-sizer"></div>
+                        <div class="grid-item w_66">
+                            <div class="ce_offer_carousel position-relative clearfix">
+                                <div
+                                    class="slideshow1_slider"
+                                    data-slick='{"dots": false}'
+                                >
+                                    <div class="item">
+                                        <div class="ce_offer_fullimage2 offer_fullimage text-white">
+                                            <img
+                                                src="https://images.pexels.com/photos/4195323/pexels-photo-4195323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                                                alt="image_not_found"
+                                            />
+                                            <div class="item_content">
+                                                <h3 class="item_title text-white">
+                                                    Special Offer
+                                                </h3>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet
+                                                    domin Quaequ e an mea
+                                                </p>
+                                                <a
+                                                    class="custom_btn bg_white text-uppercase"
+                                                    href="#!"
+                                                >
+                                                    View Collection
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel_nav clearfix">
+                                    <button type="button" class="left_arrow">
+                                        <i class="fal fa-angle-left"></i>
+                                    </button>
+                                    <button type="button" class="right_arrow">
+                                        <i class="fal fa-angle-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
 
-                        <img
-                            src="/girl.jpeg"
-                            class="w-100 shadow-1-strong rounded mb-4"
-                            alt="Wintry Mountain Landscape"
-                        />
+                        <div class="grid-item">
+                            <div class="ecommerce_category_fullimage">
+                                <img
+                                    src="https://images.pexels.com/photos/4195323/pexels-photo-4195323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                                    alt="image_not_found"
+                                />
+                                <h3 class="item_title">
+                                    <a href="#!">Cropped Pointelle</a>
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="grid-item">
+                            <div class="ecommerce_category_fullimage">
+                                <img
+                                    src="https://images.pexels.com/photos/4195323/pexels-photo-4195323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                                    alt="image_not_found"
+                                />
+                                <h3 class="item_title">
+                                    <a href="#!">Pouch Pocket Jacket</a>
+                                </h3>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="col-lg-4 mb-4 mb-lg-0">
-                        <img
-                            src="/shivin.png"
-                            class="w-100 shadow-1-strong rounded mb-4"
-                            alt="Mountains in the Clouds"
-                        />
-
-                        <img
-                            src="/jacket-girl.jpeg"
-                            class="w-100 shadow-1-strong rounded mb-4"
-                            alt="Boat on Calm Water"
-                        />
-                    </div>
-                    {/*
-                    <div class="col-lg-4 mb-4 mb-lg-0">
-                        <img
-                            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
-                            class="w-100 shadow-1-strong rounded mb-4"
-                            alt="Waves at Sea"
-                        />
-
-                        <img
-                            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-                            class="w-100 shadow-1-strong rounded mb-4"
-                            alt="Yosemite National Park"
-                        />
-                    </div> */}
                 </div>
-                {/* <!-- Gallery --> */}
-            </div>
+            </section>
         </>
     );
 };

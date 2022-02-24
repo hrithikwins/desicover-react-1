@@ -50,8 +50,8 @@ const Navbar = () => {
     };
 
     return (
-        <header className="header_section default_header clearfix bg-danger">
-            <div className="header_top text-white" data-bg-color="#000000">
+        <header className="header_section default_header clearfix">
+            <div className="header_top text-white">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-7">
@@ -112,7 +112,7 @@ const Navbar = () => {
                                         </button>
                                     </li>
                                     <li>
-                                            <ShoppingCartOutlined />
+                                        <ShoppingCartOutlined />
                                         <button
                                             type="button"
                                             className="cart_btn"

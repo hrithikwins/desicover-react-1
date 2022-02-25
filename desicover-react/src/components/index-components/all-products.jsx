@@ -1,6 +1,7 @@
 import { ProductContext } from "../../context/product-context";
 import { useContext } from "react";
 import SimpleProductCard from "./simple-product-card";
+import { Link } from "react-router-dom";
 
 const AllProducts = (props) => {
     const [productData, getAllProducts] = useContext(ProductContext);
@@ -60,7 +61,13 @@ const AllProducts = (props) => {
 
                     <div class="element-grid column4_element_grid mb_50">
                         {productData.map((data) => {
-                            return <SimpleProductCard data={data} />;
+                            return (
+                                <>
+                                    {/* <Link to="/"> */}
+                                    <SimpleProductCard data={data} />
+                                    {/* </Link> */}
+                                </>
+                            );
                         })}
                     </div>
 

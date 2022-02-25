@@ -1,21 +1,23 @@
+import { Link } from "react-router-dom";
+
 const SimpleProductCard = ({ data }) => {
     return (
         <>
-            <div className="element-item fall" data-category="fall">
+            <div className="element-item">
                 <div className="ecommerce_product_grid">
                     <ul className="product_label ul_li clearfix">
                         <li data-bg-color="#93be2b">New</li>
                     </ul>
                     <div className="tab-content">
-                        <div id="ptab1_1" className="tab-pane fade active">
+                        <div id="ptab1_1" className="tab-pane active">
                             <div className="item_image">
                                 <img
-                                    src="https://images.pexels.com/photos/4195323/pexels-photo-4195323.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                    src="https://images.pexels.com/photos/4195323/pexels-photo-4195323.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=lis"
                                     alt="image_not_found"
                                 />
                             </div>
                         </div>
-                        <div id="ptab1_2" className="tab-pane fade">
+                        {/* <div id="ptab1_2" className="tab-pane fade">
                             <div className="item_image">
                                 <img
                                     src="https://images.pexels.com/photos/4195323/pexels-photo-4195323.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
@@ -30,8 +32,8 @@ const SimpleProductCard = ({ data }) => {
                                     alt="image_not_found"
                                 />
                             </div>
-                        </div>
-                        <ul className="product_action_btns ul_li_center clearfix">
+                        </div> */}
+                        {/* <ul className="product_action_btns ul_li_center clearfix">
                             <li>
                                 <a
                                     className="tooltips"
@@ -64,7 +66,7 @@ const SimpleProductCard = ({ data }) => {
                                     <i className="fal fa-search" />
                                 </a>
                             </li>
-                        </ul>
+                        </ul> */}
                     </div>
                     <div className="item_content">
                         <h3 className="item_title">

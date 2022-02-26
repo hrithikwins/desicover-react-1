@@ -1,9 +1,9 @@
-import Navbar from "./components/navbar";
-import SwiperCarousel from "./components/header-carousel";
-import ProductCarousel from "./components/index-components/product-carousel";
-import Categories from "./components/index-components/categories";
-import NewArrivals from "./components/index-components/new-arrivals";
-import AllProducts from "./components/index-components/all-products";
+import Navbar from "./../components/navbar";
+import SwiperCarousel from "./../components/header-carousel";
+import ProductCarousel from "./../components/index-components/product-carousel";
+import Categories from "./../components/index-components/categories";
+import NewArrivals from "./../components/index-components/new-arrivals";
+import AllProducts from "./../components/index-components/all-products";
 
 export default function App() {
     return (

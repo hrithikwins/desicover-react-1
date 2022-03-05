@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const ListingSideBar = (props) => {
     return (
         <>
@@ -23,7 +25,6 @@ const ListingSideBar = (props) => {
                                 <a
                                     href="#!"
                                     data-toggle="dropdown"
-                                    aria-haspopup="true"
                                     aria-expanded="false"
                                 >
                                     Home
@@ -128,7 +129,6 @@ const ListingSideBar = (props) => {
                                 <a
                                     href="#!"
                                     data-toggle="dropdown"
-                                    aria-haspopup="true"
                                     aria-expanded="false"
                                 >
                                     Shop
@@ -138,7 +138,6 @@ const ListingSideBar = (props) => {
                                         <a
                                             href="#!"
                                             data-toggle="dropdown"
-                                            aria-haspopup="true"
                                             aria-expanded="false"
                                         >
                                             Carparts
@@ -170,7 +169,6 @@ const ListingSideBar = (props) => {
                                         <a
                                             href="#!"
                                             data-toggle="dropdown"
-                                            aria-haspopup="true"
                                             aria-expanded="false"
                                         >
                                             Classic Ecommerce
@@ -192,7 +190,6 @@ const ListingSideBar = (props) => {
                                         <a
                                             href="#!"
                                             data-toggle="dropdown"
-                                            aria-haspopup="true"
                                             aria-expanded="false"
                                         >
                                             Electronic
@@ -214,7 +211,6 @@ const ListingSideBar = (props) => {
                                         <a
                                             href="#!"
                                             data-toggle="dropdown"
-                                            aria-haspopup="true"
                                             aria-expanded="false"
                                         >
                                             Fashion
@@ -236,7 +232,6 @@ const ListingSideBar = (props) => {
                                         <a
                                             href="#!"
                                             data-toggle="dropdown"
-                                            aria-haspopup="true"
                                             aria-expanded="false"
                                         >
                                             Fashion Minimal
@@ -258,7 +253,6 @@ const ListingSideBar = (props) => {
                                         <a
                                             href="#!"
                                             data-toggle="dropdown"
-                                            aria-haspopup="true"
                                             aria-expanded="false"
                                         >
                                             Fashion Minimal
@@ -280,7 +274,6 @@ const ListingSideBar = (props) => {
                                         <a
                                             href="#!"
                                             data-toggle="dropdown"
-                                            aria-haspopup="true"
                                             aria-expanded="false"
                                         >
                                             Furniture
@@ -302,7 +295,6 @@ const ListingSideBar = (props) => {
                                         <a
                                             href="#!"
                                             data-toggle="dropdown"
-                                            aria-haspopup="true"
                                             aria-expanded="false"
                                         >
                                             Gadget
@@ -324,7 +316,6 @@ const ListingSideBar = (props) => {
                                         <a
                                             href="#!"
                                             data-toggle="dropdown"
-                                            aria-haspopup="true"
                                             aria-expanded="false"
                                         >
                                             Medical
@@ -346,7 +337,6 @@ const ListingSideBar = (props) => {
                                         <a
                                             href="#!"
                                             data-toggle="dropdown"
-                                            aria-haspopup="true"
                                             aria-expanded="false"
                                         >
                                             Modern Minimal
@@ -368,7 +358,6 @@ const ListingSideBar = (props) => {
                                         <a
                                             href="#!"
                                             data-toggle="dropdown"
-                                            aria-haspopup="true"
                                             aria-expanded="false"
                                         >
                                             Modern
@@ -390,7 +379,6 @@ const ListingSideBar = (props) => {
                                         <a
                                             href="#!"
                                             data-toggle="dropdown"
-                                            aria-haspopup="true"
                                             aria-expanded="false"
                                         >
                                             Motorcycle
@@ -417,7 +405,6 @@ const ListingSideBar = (props) => {
                                         <a
                                             href="#!"
                                             data-toggle="dropdown"
-                                            aria-haspopup="true"
                                             aria-expanded="false"
                                         >
                                             Simple Shop
@@ -439,7 +426,6 @@ const ListingSideBar = (props) => {
                                         <a
                                             href="#!"
                                             data-toggle="dropdown"
-                                            aria-haspopup="true"
                                             aria-expanded="false"
                                         >
                                             Sports
@@ -461,7 +447,6 @@ const ListingSideBar = (props) => {
                                         <a
                                             href="#!"
                                             data-toggle="dropdown"
-                                            aria-haspopup="true"
                                             aria-expanded="false"
                                         >
                                             Lookbook
@@ -483,7 +468,6 @@ const ListingSideBar = (props) => {
                                         <a
                                             href="#!"
                                             data-toggle="dropdown"
-                                            aria-haspopup="true"
                                             aria-expanded="false"
                                         >
                                             Shop Other Pages
@@ -507,7 +491,6 @@ const ListingSideBar = (props) => {
                                 <a
                                     href="#!"
                                     data-toggle="dropdown"
-                                    aria-haspopup="true"
                                     aria-expanded="false"
                                 >
                                     Pages
@@ -517,7 +500,6 @@ const ListingSideBar = (props) => {
                                         <a
                                             href="#!"
                                             data-toggle="dropdown"
-                                            aria-haspopup="true"
                                             aria-expanded="false"
                                         >
                                             Shop Inner Pages
@@ -552,7 +534,6 @@ const ListingSideBar = (props) => {
                                         <a
                                             href="#!"
                                             data-toggle="dropdown"
-                                            aria-haspopup="true"
                                             aria-expanded="false"
                                         >
                                             Blogs
@@ -574,7 +555,6 @@ const ListingSideBar = (props) => {
                                         <a
                                             href="#!"
                                             data-toggle="dropdown"
-                                            aria-haspopup="true"
                                             aria-expanded="false"
                                         >
                                             Compare
@@ -596,7 +576,6 @@ const ListingSideBar = (props) => {
                                         <a
                                             href="#!"
                                             data-toggle="dropdown"
-                                            aria-haspopup="true"
                                             aria-expanded="false"
                                         >
                                             Register
@@ -615,7 +594,7 @@ const ListingSideBar = (props) => {
                                 </ul>
                             </li>
                             <li>
-                                <a href="contact.html">Conatct</a>
+                                <Link to="/contact">Contact</Link>
                             </li>
                         </ul>
                     </div>

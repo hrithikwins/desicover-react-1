@@ -72,32 +72,9 @@ const SimpleProductCard = ({ data }) => {
                         <h3 className="item_title">
                             <a href="#!">{data.productData.name}</a>
                         </h3>
-                        <ul className="product_color ul_li nav clearfix">
-                            <li className="active">
-                                <a
-                                    className="pbg_brown"
-                                    data-toggle="tab"
-                                    href="#ptab1_1"
-                                />
-                            </li>
-                            <li>
-                                <a
-                                    className="pbg_olivegreen"
-                                    data-toggle="tab"
-                                    href="#ptab1_2"
-                                />
-                            </li>
-                            <li>
-                                <a
-                                    className="pbg_gray"
-                                    data-toggle="tab"
-                                    href="#ptab1_3"
-                                />
-                            </li>
-                        </ul>
                         <span className="item_price">
-                            <strong>$25.00</strong>
-                            <del>$35.00</del>
+                            <strong>{data.productData.price}</strong>
+                            <del>{data.productData.price}</del>
                         </span>
                     </div>
                 </div>

@@ -36,7 +36,6 @@ const ProductCard = ({ product }) => {
     const { items, addItem, removeItem } = useCart();
     const isProductAdded = items.find(({ id }) => id === product.id);
     console.log(product);
-
     return (
         <div className="px-2">
             {/* the empty container for the image to be shifted towards top */}
@@ -45,10 +44,7 @@ const ProductCard = ({ product }) => {
             <div className="container-fluid shadow product-main-card bg-white px-md-4">
                 <div className="row">
                     <div className="col-6 image-container">
-                        <a
-                            href={`/product-description/${product.id}`}
-                            passHref
-                        >
+                        <a href={`/product-description/${product.id}`} passHref>
                             <img
                                 // src={product.productData.image}
                                 src={

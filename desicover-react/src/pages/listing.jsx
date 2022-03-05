@@ -18,7 +18,7 @@ const Listing = (props) => {
                     <ListingSideBar />
                 </div>
                 <div className="col-md-9">
-                    <ListingSideContent />
+                    {/* <ListingSideContent /> */}
                     <ListingProductContent />
                 </div>
             </div>

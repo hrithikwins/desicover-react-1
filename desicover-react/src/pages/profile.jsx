@@ -1,12 +1,12 @@
 const Profile = (props) => {
     return (
         <>
-            <div id="container" class="w-100 bg-warning">
+            <div id="container" className="w-100 bg-warning">
                 <div id="leftCol">
                     <div id="leftColHeader">
                         <h1>
                             My Wallets
-                            <span class="leftColPlus" id="myBtn">
+                            <span className="leftColPlus" id="myBtn">
                                 <img
                                     style={{ width: "100px" }}
                                     src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Finnovationsoftheworld.com%2Findia%2Fwp-content%2Fuploads%2Fsites%2F4%2F2019%2F03%2Frzp-logo-positive.png&f=1&nofb=1"
@@ -17,10 +17,10 @@ const Profile = (props) => {
                     </div>
                     <div id="leftColContent">
                         {/* <!--
-      <div class="cardBox active">
+      <div className="cardBox active">
         <img src="amex.png">
-        <p class="cardNumber">8888 8888 8888 8888</p>
-        <p class="cardDate">Valid Thru: 12/19</p>
+        <p className="cardNumber">8888 8888 8888 8888</p>
+        <p className="cardDate">Valid Thru: 12/19</p>
       </div> --> */}
                     </div>
                 </div>
@@ -29,29 +29,29 @@ const Profile = (props) => {
                     <div id="rightColHeader">
                         <h1>
                             Current Balance
-                            <span class="balanceAmount" id="balanceAmount">
+                            <span className="balanceAmount" id="balanceAmount">
                                 ₹ 750.<sup>00</sup>
                             </span>
                         </h1>
-                        <p class="currentCard"></p>
-                        <select class="forMobile" id="forMobile">
+                        <p className="currentCard"></p>
+                        <select className="forMobile" id="forMobile">
                             <option>Choose a card...</option>
                         </select>
                         <hr />
                     </div>
                     <div id="rightColContent">
                         <div id="entryBox">
-                            <div class="transType">
+                            <div className="transType">
                                 <img
                                     src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.fCityjyEEq8aYaQD58obggHaF9%26pid%3DApi&f=1"
                                     alt="plus"
                                 />
                             </div>
-                            <div class="transaction">
-                                <p class="lineItem">Apple iPhone 6 Cover</p>
-                                <p class="itemDetails">Classic Black</p>
+                            <div className="transaction">
+                                <p className="lineItem">Apple iPhone 6 Cover</p>
+                                <p className="itemDetails">Classic Black</p>
                             </div>
-                            <div class="dollarsDebit">
+                            <div className="dollarsDebit">
                                 <p>
                                     ₹ 900.<sup>00</sup>
                                 </p>
@@ -60,9 +60,9 @@ const Profile = (props) => {
                     </div>
                 </div>
             </div>
-            <div id="myModal" class="modal">
-                <div class="modal-content">
-                    <span class="close">&times;</span>
+            <div id="myModal" className="modal">
+                <div className="modal-content">
+                    <span className="close">&times;</span>
                     <h3>Add A New Card</h3>
 
                     <label for="cardtype">Card Type</label>

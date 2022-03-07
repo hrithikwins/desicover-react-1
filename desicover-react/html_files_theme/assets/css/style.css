@@ -2104,7 +2104,7 @@ button {
 }
 .menu_item_has_child > a:after {
   font-size: 15px;
-  content: "";
+  /* content: ""; */
   font-weight: 500;
   margin-left: 5px;
   display: inline-block;
@@ -5484,7 +5484,7 @@ button {
   color: #1c1f23;
 }
 .sb_category_accordion .card-header a:not(.collapsed):before {
-  content: "";
+  /* content: ""; */
   color: #ce0b2b;
 }
 .sb_category_accordion ul {

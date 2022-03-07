@@ -42,7 +42,15 @@ const ListingProductContent = (props) => {
                     </div>
                 </div>
                 <div className="row justify-content-center">
-                    <ListingProductCard data={productData} />
+                    {productData.map((data) => {
+                        return (
+                            <>
+                                {/* <Link to="/"> */}
+                                <ListingProductCard productData={data} />
+                                {/* </Link> */}
+                            </>
+                        );
+                    })}
                 </div>
             </section>
         </>
